@@ -1,0 +1,63 @@
+/* About Section Start */
+
+.header-text h2 {
+    font-family: "PoppinsBold";
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: #dee3e4;
+    opacity: 0.5;
+}
+
+.header-text p {
+    font-family: "PoppinsBold";
+    font-size: 35px;
+}
+
+.about-section {
+    margin-top: 5rem;
+}
+
+.mt-4 {
+    margin-top: 4rem;
+}
+
+.about-information h1 {
+    font-family: "PoppinsBold";
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.about-information p {
+    font-family: "PoppinsLight";
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #4c4d4d;
+}
+
+.about-information h1 span,
+.list ul li a {
+    color: #20c997;
+}
+
+.list ul li span {
+    font-family: "PoppinsBold";
+    font-size: 18px;
+    color: #4c4d4d;
+    margin-right: 5px;
+}
+
+.list {
+    padding-left: 40px;
+}
+
+.list ul li {
+    font-family: "PoppinsLight";
+    font-size: 18px;
+    color: #4c4d4d;
+    border-bottom: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* About Section End */

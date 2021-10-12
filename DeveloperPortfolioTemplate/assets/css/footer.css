@@ -1,0 +1,29 @@
+/* Footer Section Start */
+
+.footer-text {
+    font-family: "PoppinsLight";
+}
+
+.footer-text p a {
+    color: #20c997;
+    text-decoration: none;
+}
+
+.footer-nav-item a {
+    font-family: "PoppinsLight";
+    color: #252b33;
+    margin-left: 20px;
+}
+
+.footer-nav-item a:hover {
+    color: #20c997;
+    transition: all .5s ease;
+}
+
+#footer {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+/* Footer Section End */

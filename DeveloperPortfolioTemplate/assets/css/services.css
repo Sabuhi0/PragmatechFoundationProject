@@ -1,0 +1,91 @@
+/* What I do? Section Start */
+
+.row-list {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap: 40px;
+}
+
+.bg {
+    background: rgb(248, 249, 250);
+    margin-top: 6rem;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.list-groups .fa-html5 {
+    font-size: 5rem;
+    color: #fc6704;
+}
+
+.list-groups .fa-css3-alt {
+    font-size: 5rem;
+    color: #156aa6;
+}
+
+.list-groups .fa-bootstrap {
+    font-size: 5rem;
+    color: #7952b3;
+}
+
+.list-groups .fa-js {
+    font-size: 5rem;
+    color: #fcdc00;
+}
+
+.item {
+    padding-left: 20px;
+}
+
+.item h1 {
+    font-family: "Poppins";
+    font-size: 25px;
+    color: #252b33;
+}
+
+.item p {
+    font-family: "PoppinsLight", sans-serif;
+    color: #4c4d4d;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+
+/* What I do? Section End */
+
+
+/* My Skills Section Start */
+
+.row-skills {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap: 40px;
+}
+
+.skills-section h2 {
+    font-family: "PoppinsBold";
+    font-size: 1.8rem;
+    color: #252b33;
+}
+
+.skill-item {
+    font-family: "Poppins";
+    font-size: 18px;
+    color: #252b33;
+}
+
+.progress {
+    display: flex;
+    height: 0.5rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.progress-bar {
+    background-color: #20c997;
+}
+
+
+/* My Skills Section End */

@@ -1,0 +1,86 @@
+/* My Work Section Start */
+
+#work {
+    margin-top: 5rem;
+}
+
+.row-work {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5rem;
+}
+
+.work-section-items {
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    border-radius: 4px;
+    filter: blur(0px);
+    opacity: 1;
+}
+
+.overlay-item {
+    position: absolute;
+    /* width: 100%;
+    height: 100%; */
+    top: 0;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all .6s ease;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+}
+
+.work-section-items:hover .overlay-item {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+.work-section-items:hover img {
+    filter: blur(1px);
+}
+
+.item-text {
+    font-family: "PoppinsLight";
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.item-text h1 span {
+    font-family: "PoppinsBold";
+    color: #20c997;
+}
+
+.item-text p {
+    font-family: "PoppinsLight";
+    font-size: 18px;
+    margin-top: 1.3rem;
+}
+
+.developer .frontEnd {
+    font-family: "PoppinsBold";
+    color: #fc6704;
+}
+
+.developer .bootstrap {
+    font-family: "PoppinsBold";
+    color: #7952b3;
+}
+
+.developer .backEnd {
+    font-family: "PoppinsBold";
+    color: #fcdc00;
+}
+
+
+/* My Work Section End */

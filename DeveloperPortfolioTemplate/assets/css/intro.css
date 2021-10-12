@@ -1,0 +1,135 @@
+/* Intro Section Start */
+
+.bg-video video {
+    width: 100%;
+}
+
+.header-navbar-name h1 {
+    font-family: "PoppinsLight";
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header-navbar-name a span {
+    color: #20c997;
+}
+
+.header-navbar-menu ul li a {
+    font-family: "PoppinsLight";
+    color: #fff;
+    font-size: 1rem;
+    padding: 1.3rem;
+}
+
+.header-navbar-menu ul a:hover {
+    color: #20c997;
+    transition: all .4s ease;
+}
+
+.header-navbar-button .btn {
+    font-size: .9rem;
+}
+
+#home {
+    position: relative;
+}
+
+.position-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 4, 0.5);
+    z-index: 0;
+}
+
+.position-center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+
+
+/* .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(17, 17, 17, 0.7);
+    z-index: 1;
+} */
+
+.header-section {
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.header-navbar-social a {
+    margin-left: 8px;
+}
+
+.header-content-repot h1 {
+    font-family: "PoppinsBold";
+    font-size: 4rem;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.header-content-text h3 {
+    font-family: "Poppins";
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.header-content-subtitle p {
+    font-family: "PoppinsLight";
+    font-size: 1.4rem;
+    color: #d4e0e2;
+    margin-top: 2rem;
+}
+
+.btn-outline-success {
+    font-family: "PoppinsLight";
+    padding: .7rem 2.3rem;
+    border-radius: 2rem;
+    color: #20c997;
+    border: 2px solid #20c997;
+    background-color: transparent;
+}
+
+.btn-outline-success:hover {
+    background-color: #20c997;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.header-content-button {
+    padding-top: 2rem;
+}
+
+.positon-relative {
+    position: relative;
+}
+
+.positon-absolute {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+
+
+/* Intro Section End */
