@@ -1,0 +1,276 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/* 12 Column Grid System */
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.container-full {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 {
+    width: calc((100%/12)*1)
+}
+
+.col-2 {
+    width: calc((100%/12)*2)
+}
+
+.col-3 {
+    width: calc((100%/12)*3)
+}
+
+.col-4 {
+    width: calc((100%/12)*4)
+}
+
+.col-5 {
+    width: calc((100%/12)*5)
+}
+
+.col-6 {
+    width: calc((100%/12)*6)
+}
+
+.col-7 {
+    width: calc((100%/12)*7)
+}
+
+.col-8 {
+    width: calc((100%/12)*8)
+}
+
+.col-9 {
+    width: calc((100%/12)*9)
+}
+
+.col-10 {
+    width: calc((100%/12)*10)
+}
+
+.col-11 {
+    width: calc((100%/12)*11)
+}
+
+.col-12 {
+    width: calc((100%/12)*12)
+}
+
+
+/* Common Css */
+
+@font-face {
+    font-family: PoppinsLight;
+    src: url(../fonts/pxiEyp8kv8JHgFVrJJfecg.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: PoppinsBold;
+    src: url(../fonts/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format("woff2");
+    font-display: swap;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-1 {
+    margin-top: 1.5rem;
+}
+
+.mb-1 {
+    margin-bottom: 1.5rem;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.pt-6 {
+    padding-top: 6px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.ml-12 {
+    margin-left: 12px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
