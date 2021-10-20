@@ -29,7 +29,7 @@
     line-height: 1.5;
 }
 
-.fa-star {
+.point span>.fa-star {
     color: #ffc107;
 }
 

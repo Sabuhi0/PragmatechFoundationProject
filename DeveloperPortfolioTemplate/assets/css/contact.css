@@ -71,7 +71,7 @@ textarea {
 
 .send:hover {
     background-color: #1cad82;
-    transition: all .8s ease;
+    transition: all .4s ease;
 }
 
 .admin-contact-button {

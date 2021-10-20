@@ -2,7 +2,7 @@
 
 .header-text h2 {
     font-family: "PoppinsBold";
-    font-size: 8rem;
+    font-size: 128px;
     text-transform: uppercase;
     color: #dee3e4;
     opacity: 0.5;
@@ -13,23 +13,15 @@
     font-size: 35px;
 }
 
-.about-section {
-    margin-top: 5rem;
-}
-
-.mt-4 {
-    margin-top: 4rem;
-}
-
 .about-information h1 {
     font-family: "PoppinsBold";
-    font-size: 2rem;
+    font-size: 32px;
     margin-bottom: 25px;
 }
 
 .about-information p {
     font-family: "PoppinsLight";
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.5;
     color: #4c4d4d;
 }

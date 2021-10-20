@@ -14,22 +14,22 @@
 }
 
 .list-groups .fa-html5 {
-    font-size: 5rem;
+    font-size: 80px;
     color: #fc6704;
 }
 
 .list-groups .fa-css3-alt {
-    font-size: 5rem;
+    font-size: 80px;
     color: #156aa6;
 }
 
 .list-groups .fa-bootstrap {
-    font-size: 5rem;
+    font-size: 80px;
     color: #7952b3;
 }
 
 .list-groups .fa-js {
-    font-size: 5rem;
+    font-size: 80px;
     color: #fcdc00;
 }
 
@@ -64,7 +64,7 @@
 
 .skills-section h2 {
     font-family: "PoppinsBold";
-    font-size: 1.8rem;
+    font-size: 28px;
     color: #252b33;
 }
 
@@ -78,7 +78,7 @@
     display: flex;
     height: 0.5rem;
     overflow: hidden;
-    font-size: .75rem;
+    font-size: 12px;
     background-color: #e9ecef;
     border-radius: .25rem;
 }
