@@ -6,7 +6,7 @@
 
 .row-work {
     display: grid;
-    gap: 25px;
+    gap: 26px;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 5rem;
 }

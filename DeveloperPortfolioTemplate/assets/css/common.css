@@ -140,13 +140,13 @@ table {
 
 /* 12 Column Grid System */
 
+.container-full {
+    width: 100%;
+}
+
 .container {
     width: 1110px;
     margin: 0 auto;
-}
-
-.container-full {
-    width: 100%;
 }
 
 .row {
