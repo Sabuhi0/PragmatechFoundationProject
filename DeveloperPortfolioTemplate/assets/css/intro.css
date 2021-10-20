@@ -6,7 +6,7 @@
 
 .header-navbar-name h1 {
     font-family: "PoppinsLight";
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 700;
     color: #fff;
 }
@@ -18,7 +18,7 @@
 .header-navbar-menu ul li a {
     font-family: "PoppinsLight";
     color: #fff;
-    font-size: 1rem;
+    font-size: 16px;
     padding: 1.3rem;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .header-navbar-button .btn {
-    font-size: .9rem;
+    font-size: 14px;
 }
 
 #home {
@@ -54,7 +54,6 @@
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
     top: 50%;
     transform: translate(0px, -50%);
 }
@@ -81,21 +80,21 @@
 
 .header-content-repot h1 {
     font-family: "PoppinsBold";
-    font-size: 4rem;
+    font-size: 64px;
     color: #fff;
     padding-top: 10px;
 }
 
 .header-content-text h3 {
     font-family: "Poppins";
-    font-size: 2rem;
+    font-size: 32px;
     color: #fff;
     margin-bottom: 20px;
 }
 
 .header-content-subtitle p {
     font-family: "PoppinsLight";
-    font-size: 1.4rem;
+    font-size: 22px;
     color: #d4e0e2;
     margin-top: 2rem;
 }
@@ -112,24 +111,25 @@
 .btn-outline-success:hover {
     background-color: #20c997;
     color: #fff;
-    transition: all .5s ease;
+    transition: all .3s ease;
 }
 
 .header-content-button {
-    padding-top: 2rem;
+    padding-top: 32px;
 }
 
-.positon-relative {
+.position-relative {
     position: relative;
 }
 
-.positon-absolute {
+
+/* .positon-absolute {
     position: absolute;
     left: 0;
     right: 0;
     top: 50%;
     transform: translate(0px, -50%);
-}
+} */
 
 
 /* Intro Section End */
