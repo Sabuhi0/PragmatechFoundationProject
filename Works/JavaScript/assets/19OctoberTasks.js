@@ -3,6 +3,7 @@
 // Task 1;
 
 /* İstifadəci ekrandan 1 rəqəmini daxil edəndə 1-100 arası ədədlərin cəmini ekrana cap edin */
+
 /* let admin = prompt("Zehmet olmasa 1 reqemini daxil edesiz");
 
 if (admin == 1) {
@@ -31,3 +32,12 @@ if (user == 2) {
 if (text) {
     alert("Xosh gelmisiz")
 }*/
+
+// Task 3;
+
+/* 
+   Verilən nums=[1,2,3,6,7,8,23,78,34,12];
+   1) Ədədlərin cəmini tapan metod yazın;
+   2) Ədədlərin böyükdən kiçiyə doğru sıralayın;
+   3) Ədədlər arasında rəqəmlərinin cəmi ən böyük olan ədədi tapın;
+*/
