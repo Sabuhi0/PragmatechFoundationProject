@@ -91,3 +91,5 @@ const list = [1, 2, 3, 6, 7, 8, 23, 78, 34, 12];
 
 let oddSum = list.reduce((acc, curr) => acc + (curr % 2 === 1 ? curr : 0), 0);
 console.log('Sum:', oddSum);
+
+// Task 4 End;
