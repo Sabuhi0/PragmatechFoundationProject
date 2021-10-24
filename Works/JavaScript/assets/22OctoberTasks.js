@@ -61,3 +61,12 @@ for (let i = 0; i < nums.length; i++) {
 }
 
 console.log(sum);
+
+// 2st
+
+let number = [1, 2, 3, 6, 7, 8, 23, 78, 34, 12];
+
+number.sort(function(a, b) {
+    return b - a;
+})
+console.log(number)
