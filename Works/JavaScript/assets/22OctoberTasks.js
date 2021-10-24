@@ -70,3 +70,16 @@ number.sort(function(a, b) {
     return b - a;
 })
 console.log(number)
+
+// 3st
+
+var numbers = [1, 2, 3, 6, 7, 8, 23, 78, 34, 12];
+var largest = 0;
+
+for (var i = 0; i <= largest; i++) {
+    if (nums[i] > largest) {
+        var largest = nums[i];
+    }
+}
+
+console.log(largest);
