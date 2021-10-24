@@ -48,6 +48,7 @@ console.log(array);*/
    1) Ədədlərin cəmini tapan metod yazın;
    2) Ədədlərin böyükdən kiçiyə doğru sıralayın;
    3) Ədədlər arasında rəqəmlərinin cəmi ən böyük olan ədədi tapın;
+   4) Tək ədədlərin cəmini tapan metod yazın;
 */
 
 // 1st
