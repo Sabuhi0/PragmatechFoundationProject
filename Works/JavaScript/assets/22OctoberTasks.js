@@ -49,3 +49,15 @@ console.log(array);*/
    2) Ədədlərin böyükdən kiçiyə doğru sıralayın;
    3) Ədədlər arasında rəqəmlərinin cəmi ən böyük olan ədədi tapın;
 */
+
+// 1st
+
+let nums = [1, 2, 3, 6, 7, 8, 23, 78, 34, 12];
+
+let sum = 0;
+
+for (let i = 0; i < nums.length; i++) {
+    sum += nums[i];
+}
+
+console.log(sum);
