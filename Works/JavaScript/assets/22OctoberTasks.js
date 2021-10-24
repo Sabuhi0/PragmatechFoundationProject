@@ -84,3 +84,10 @@ for (var i = 0; i <= largest; i++) {
 }
 
 console.log(largest);
+
+// 4st
+
+const list = [1, 2, 3, 6, 7, 8, 23, 78, 34, 12];
+
+let oddSum = list.reduce((acc, curr) => acc + (curr % 2 === 1 ? curr : 0), 0);
+console.log('Sum:', oddSum);
