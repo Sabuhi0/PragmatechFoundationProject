@@ -3,7 +3,7 @@
 .address-section h1,
 .follow-me h1 {
     font-family: "Poppins";
-    color: #111;
+    color: var(--color-cod-gray);
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -11,14 +11,14 @@
 .address-section p,
 .contact-me {
     font-family: "PoppinsLight";
-    color: #4c4d4d;
+    color: var(--color-cape-cod);
     font-size: 16px;
     text-transform: uppercase;
 }
 
 .contact-me p span i {
     font-size: 18px;
-    color: #20c997;
+    color: var(--color-mountain-meadow);
 }
 
 .input {
@@ -27,10 +27,10 @@
     padding: 9px;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
+    color: var(--color-shark);
+    background-color: var(--color-white);
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 1px solid var(--color-geyser);
     appearance: none;
     outline: none;
     border-radius: .25rem;
@@ -39,7 +39,7 @@
 
 .input,
 select {
-    color: #252b33;
+    color: var(--color-charade);
     font-family: "PoppinsLight";
     font-size: 16px;
 }
@@ -51,7 +51,7 @@ textarea {
 
 .admin-contact h1 {
     font-family: "Poppins";
-    color: #111;
+    color: var(--color-cod-gray);
     font-size: 25px;
     text-transform: uppercase;
     margin-bottom: 18px;
@@ -61,16 +61,16 @@ textarea {
     font-family: "Poppins";
     font-size: 16px;
     padding: 0.8rem 2.6rem;
-    background-color: #20c997;
+    background-color: var(--color-mountain-meadow);
     border: none;
-    border-color: #20c997;
+    border-color: var(--color-mountain-meadow);
     border-radius: 50rem;
-    color: #fff;
+    color: var(--color-white);
     cursor: pointer;
 }
 
 .send:hover {
-    background-color: #1cad82;
+    background-color: var(--color-mountain-meadow-bold);
     transition: all .4s ease;
 }
 
