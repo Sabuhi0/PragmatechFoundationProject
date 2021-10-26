@@ -7,7 +7,7 @@
 }
 
 .feedback-item {
-    background: rgb(248, 249, 250);
+    background: #f8f9fa;
     padding: 2.8rem;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .point span>.fa-star {
-    color: #ffc107;
+    color: var(--color-amber);
 }
 
 .social-list span a {
@@ -57,7 +57,7 @@
 }
 
 .social-list span .instagram:hover {
-    color: rgb(245, 96, 64);
+    color: #f56040;
     transition: all .4s ease;
 }
 
