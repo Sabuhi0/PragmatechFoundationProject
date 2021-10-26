@@ -5,18 +5,18 @@
 }
 
 .footer-text p a {
-    color: #20c997;
+    color: var(--color-mountain-meadow);
     text-decoration: none;
 }
 
 .footer-nav-item a {
     font-family: "PoppinsLight";
-    color: #252b33;
+    color: var(--color-charade);
     margin-left: 20px;
 }
 
 .footer-nav-item a:hover {
-    color: #20c997;
+    color: var(--color-mountain-meadow);
     transition: all .6s ease;
 }
 
