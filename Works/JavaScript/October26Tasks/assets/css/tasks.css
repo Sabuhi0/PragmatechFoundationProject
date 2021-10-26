@@ -1,1 +1,38 @@
-/* Initial commit */
+.slider-container {
+    width: 1800px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.slide-items {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transition: all .5s ease;
+}
+
+.slide-item {
+    width: 600px;
+    height: 100px;
+    box-shadow: 0px 0px 5px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.arrows {
+    display: flex;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
