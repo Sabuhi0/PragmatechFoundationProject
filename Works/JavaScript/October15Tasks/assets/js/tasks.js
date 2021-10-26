@@ -75,5 +75,4 @@ test();*/
         alert("Düzgün məlumat daxil etməmisiniz");
     }
 }
-
 // test();*/
