@@ -8,22 +8,22 @@
     font-family: "PoppinsLight";
     font-size: 32px;
     font-weight: 700;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .header-navbar-name a span {
-    color: #20c997;
+    color: var(--color-mountain-meadow);
 }
 
 .header-navbar-menu ul li a {
     font-family: "PoppinsLight";
-    color: #fff;
+    color: var(--color-white);
     font-size: 16px;
     padding: 1.3rem;
 }
 
 .header-navbar-menu ul a:hover {
-    color: #20c997;
+    color: var(--color-mountain-meadow);
     transition: all .4s ease;
 }
 
@@ -71,21 +71,21 @@
 .header-content-repot h1 {
     font-family: "PoppinsBold";
     font-size: 64px;
-    color: #fff;
+    color: var(--color-white);
     padding-top: 10px;
 }
 
 .header-content-text h3 {
     font-family: "Poppins";
     font-size: 32px;
-    color: #fff;
+    color: var(--color-white);
     margin-bottom: 20px;
 }
 
 .header-content-subtitle p {
     font-family: "PoppinsLight";
     font-size: 22px;
-    color: #d4e0e2;
+    color: var(--color-geyser);
     margin-top: 2rem;
 }
 
@@ -93,14 +93,14 @@
     font-family: "PoppinsLight";
     padding: .7rem 2.3rem;
     border-radius: 2rem;
-    color: #20c997;
-    border: 2px solid #20c997;
+    color: var(--color-mountain-meadow);
+    border: 2px solid var(--color-mountain-meadow);
     background-color: transparent;
 }
 
 .btn-outline-success:hover {
-    background-color: #20c997;
-    color: #fff;
+    background-color: var(--color-mountain-meadow);
+    color: var(--color-white);
     transition: all .3s ease;
 }
 
