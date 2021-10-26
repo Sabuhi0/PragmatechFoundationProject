@@ -47,7 +47,7 @@
 
 .item-text {
     font-family: "PoppinsLight";
-    color: white;
+    color: var(--color-white);
     font-size: 25px;
     position: absolute;
     top: 50%;
@@ -58,7 +58,7 @@
 
 .item-text h1 span {
     font-family: "PoppinsBold";
-    color: #20c997;
+    color: var(--color-mountain-meadow)
 }
 
 .item-text p {
@@ -69,17 +69,17 @@
 
 .developer .frontEnd {
     font-family: "PoppinsBold";
-    color: #fc6704;
+    color: var(--color-blaze-orange);
 }
 
 .developer .bootstrap {
     font-family: "PoppinsBold";
-    color: #7952b3;
+    color: var(--color-studio);
 }
 
 .developer .backEnd {
     font-family: "PoppinsBold";
-    color: #fcdc00;
+    color: var(--color-gold);
 }
 
 
