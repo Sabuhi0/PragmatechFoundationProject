@@ -7,7 +7,7 @@
 }
 
 .bg {
-    background: rgb(248, 249, 250);
+    background: var(--color-athens-gray);
     margin-top: 6rem;
     padding-top: 6rem;
     padding-bottom: 4rem;
@@ -15,22 +15,22 @@
 
 .list-groups .fa-html5 {
     font-size: 80px;
-    color: #fc6704;
+    color: var(--color-blaze-orange);
 }
 
 .list-groups .fa-css3-alt {
     font-size: 80px;
-    color: #156aa6;
+    color: var(--color-fun-blue);
 }
 
 .list-groups .fa-bootstrap {
     font-size: 80px;
-    color: #7952b3;
+    color: var(--color-studio);
 }
 
 .list-groups .fa-js {
     font-size: 80px;
-    color: #f7d604;
+    color: var(--color-gold);
 }
 
 .item {
@@ -40,12 +40,12 @@
 .item h1 {
     font-family: "Poppins";
     font-size: 25px;
-    color: #252b33;
+    color: var(--color-charade);
 }
 
 .item p {
     font-family: "PoppinsLight", sans-serif;
-    color: #4c4d4d;
+    color: var(--color-cape-cod);
     padding-top: 10px;
     line-height: 1.5;
 }
@@ -65,13 +65,13 @@
 .skills-section h2 {
     font-family: "PoppinsBold";
     font-size: 28px;
-    color: #252b33;
+    color: var(--color-charade);
 }
 
 .skill-item {
     font-family: "Poppins";
     font-size: 18px;
-    color: #252b33;
+    color: var(--color-charade);
 }
 
 .progress {
@@ -79,12 +79,12 @@
     height: 0.5rem;
     overflow: hidden;
     font-size: 12px;
-    background-color: #e9ecef;
+    background-color: var(--color-geyser);
     border-radius: .25rem;
 }
 
 .progress-bar {
-    background-color: #20c997;
+    background-color: var(--color-mountain-meadow);
 }
 
 
