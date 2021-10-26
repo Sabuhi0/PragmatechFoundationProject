@@ -7,23 +7,23 @@
 }
 
 .feedback-item {
-    background: #f8f9fa;
+    background: var(--color-athens-gray);
     padding: 2.8rem;
 }
 
 .feedbacks-item h1 {
     font-family: "Poppins";
-    color: #252b33;
+    color: var(--color-charade);
 }
 
 .feedbacks-item small {
     font-family: "Poppins";
-    color: #6c757d;
+    color: var(--color-pale-sky);
 }
 
 .feedbacks-item p {
     font-family: "Poppins";
-    color: #212529;
+    color: var(--color-shark);
     line-height: 1.5;
 }
 
@@ -34,7 +34,7 @@
 .social-list span a {
     font-size: 20px;
     text-decoration: none;
-    color: #4d555a;
+    color: var(--color-abbey);
 }
 
 .social-list span a:not(:first-child) {
@@ -42,22 +42,22 @@
 }
 
 .social-list span .github:hover {
-    color: #252b33;
+    color: var(--color-charade);
     transition: all .4s ease;
 }
 
 .social-list span .facebook:hover {
-    color: #0046b6;
+    color: var(--color-cobalt);
     transition: all .4s ease;
 }
 
 .social-list span .twitter:hover {
-    color: #1d9bf0;
+    color: var(--color-dodger-blue);
     transition: all .4s ease;
 }
 
 .social-list span .instagram:hover {
-    color: #f56040;
+    color: var(--color-flamingo);
     transition: all .4s ease;
 }
 
