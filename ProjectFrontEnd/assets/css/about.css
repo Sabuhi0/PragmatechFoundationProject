@@ -4,7 +4,7 @@
     font-family: "PoppinsBold";
     font-size: 128px;
     text-transform: uppercase;
-    color: #dee3e4;
+    color: var(--color-iron);
     opacity: 0.5;
 }
 
@@ -23,18 +23,18 @@
     font-family: "PoppinsLight";
     font-size: 16px;
     line-height: 1.5;
-    color: #4c4d4d;
+    color: var(--color-cape-cod);
 }
 
 .about-information h1 span,
 .list ul li a {
-    color: #20c795;
+    color: var(--color-mountain-meadow);
 }
 
 .list ul li span {
     font-family: "PoppinsBold";
     font-size: 18px;
-    color: #4c4d4d;
+    color: var(--color-cape-cod);
     margin-right: 5px;
 }
 
@@ -45,8 +45,8 @@
 .list ul li {
     font-family: "PoppinsLight";
     font-size: 18px;
-    color: #4c4d4d;
-    border-bottom: 1px solid #eaeaea;
+    color: var(--color-cape-cod);
+    border-bottom: 1px solid var(--color-gallery);
     padding-top: 15px;
     padding-bottom: 15px;
 }
