@@ -223,6 +223,10 @@ table {
     font-display: swap;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .d-flex {
     display: flex;
 }
@@ -237,6 +241,13 @@ table {
 
 .text-center {
     text-align: center;
+}
+
+.section {
+    background: var(--color-athens-gray);
+    margin-top: 6rem;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
 }
 
 .mt-1 {
