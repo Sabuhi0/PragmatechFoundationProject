@@ -1,11 +1,5 @@
 /* What I do? Section Start */
 
-.row-list {
-    display: grid;
-    grid-template-columns: repeat(2, 4fr);
-    gap: 40px;
-}
-
 .list-groups .fa-html5 {
     font-size: 80px;
     color: var(--color-blaze-orange);
