@@ -1,11 +1,5 @@
 /* Feedbacks Section Start */
 
-.row-feedbacks {
-    display: grid;
-    gap: 25px;
-    grid-template-columns: repeat(2, 1fr);
-}
-
 .feedback-item {
     background: var(--color-athens-gray);
     padding: 2.8rem;
