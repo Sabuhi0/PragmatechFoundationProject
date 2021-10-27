@@ -4,13 +4,6 @@
     margin-top: 5rem;
 }
 
-.row-work {
-    display: grid;
-    gap: 26px;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 5rem;
-}
-
 .work-section-items {
     position: relative;
 }
