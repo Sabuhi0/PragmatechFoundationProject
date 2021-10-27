@@ -6,13 +6,6 @@
     gap: 40px;
 }
 
-.bg {
-    background: var(--color-athens-gray);
-    margin-top: 6rem;
-    padding-top: 6rem;
-    padding-bottom: 4rem;
-}
-
 .list-groups .fa-html5 {
     font-size: 80px;
     color: var(--color-blaze-orange);
