@@ -1,40 +1,67 @@
 /* What I do? Section Start */
 
+@media only screen and (min-width: 800px) {
+    .item h1 {
+        font-family: "Poppins";
+        font-size: 25px;
+        color: var(--color-charade);
+    }
+    .item p {
+        font-family: "PoppinsLight", sans-serif;
+        color: var(--color-cape-cod);
+        padding-top: 10px;
+        line-height: 1.5;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .item h1 {
+        font-family: "Poppins";
+        font-size: 20px;
+        color: var(--color-charade);
+    }
+    .item p {
+        font-family: "PoppinsLight", sans-serif;
+        color: var(--color-cape-cod);
+        padding-top: 10px;
+        line-height: 1.5;
+    }
+}
+
+.list-groups {
+    padding-top: 20px;
+}
+
+.fa-html5,
+.fa-css3-alt,
+.fa-bootstrap,
+.fa-js {
+    background: white;
+    padding: 10px 20px;
+}
+
 .list-groups .fa-html5 {
-    font-size: 80px;
+    font-size: 45px;
     color: var(--color-blaze-orange);
 }
 
 .list-groups .fa-css3-alt {
-    font-size: 80px;
+    font-size: 45px;
     color: var(--color-fun-blue);
 }
 
 .list-groups .fa-bootstrap {
-    font-size: 80px;
+    font-size: 45px;
     color: var(--color-studio);
 }
 
 .list-groups .fa-js {
-    font-size: 80px;
+    font-size: 45px;
     color: var(--color-gold);
 }
 
 .item {
     padding-left: 20px;
-}
-
-.item h1 {
-    font-family: "Poppins";
-    font-size: 25px;
-    color: var(--color-charade);
-}
-
-.item p {
-    font-family: "PoppinsLight", sans-serif;
-    color: var(--color-cape-cod);
-    padding-top: 10px;
-    line-height: 1.5;
 }
 
 
@@ -43,24 +70,34 @@
 
 /* My Skills Section Start */
 
-.row-skills {
-    display: grid;
-    grid-template-columns: repeat(2, 4fr);
-    gap: 40px;
+@media only screen and (min-width: 800px) {
+    .skills-section h2 {
+        font-family: "PoppinsBold";
+        font-size: 28px;
+        color: var(--color-charade);
+        margin-top: 60px;
+    }
+    .skill-item {
+        font-family: "Poppins";
+        font-size: 18px;
+        color: var(--color-charade);
+        padding-top: 35px;
+    }
 }
 
-.skills-section h2 {
-    font-family: "PoppinsBold";
-    font-size: 28px;
-    color: var(--color-charade);
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
-
-.skill-item {
-    font-family: "Poppins";
-    font-size: 18px;
-    color: var(--color-charade);
+@media only screen and (max-width: 800px) {
+    .skills-section h2 {
+        font-family: "PoppinsBold";
+        font-size: 20px;
+        color: var(--color-charade);
+        margin-top: 60px;
+    }
+    .skill-item {
+        font-family: "Poppins";
+        font-size: 16px;
+        color: var(--color-charade);
+        padding-top: 35px;
+    }
 }
 
 .progress {
