@@ -89,7 +89,7 @@
 }
 
 .header-social-list span a {
-    font-size: 25px;
+    font-size: 18px;
     text-decoration: none;
     color: var(--color-white);
 }
@@ -189,4 +189,28 @@
 
 .position-relative {
     position: relative;
+}
+
+.animated {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 49.4%;
+    transform: translate(-50%, -50%);
+    right: 50%;
+    top: 84%;
+}
+
+.fa-angle-down {
+    fill: #FFF;
+    margin: auto;
+    width: 5em;
+    height: 5em;
+    animation: hover-me .9s infinite ease-in-out alternate;
+}
+
+@keyframes hover-me {
+    100% {
+        transform: translate3d(0, 25px, 0);
+    }
 }
