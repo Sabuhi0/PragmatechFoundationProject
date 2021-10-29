@@ -1,5 +1,8 @@
 /* What I do? Section Start */
 
+
+/* Responsive Section Start */
+
 @media only screen and (min-width: 800px) {
     .item h1 {
         font-family: "Poppins";
@@ -27,6 +30,9 @@
         line-height: 1.5;
     }
 }
+
+
+/* Responsive Section End */
 
 .list-groups {
     padding-top: 20px;
@@ -70,6 +76,9 @@
 
 /* My Skills Section Start */
 
+
+/* Responsive Section Start */
+
 @media only screen and (min-width: 800px) {
     .skills-section h2 {
         font-family: "PoppinsBold";
@@ -99,6 +108,9 @@
         padding-top: 35px;
     }
 }
+
+
+/* Responsive Section End */
 
 .progress {
     display: flex;
