@@ -1,5 +1,65 @@
 /* Intro Section Start */
 
+
+/* Responsive Section Start */
+
+@media only screen and (min-width: 800px) {
+    .bar {
+        display: none;
+    }
+    .header-content-repot h1 {
+        font-family: "PoppinsBold";
+        font-size: 64px;
+        color: var(--color-white);
+        padding-top: 10px;
+    }
+    .header-content-text h3 {
+        font-family: "Poppins";
+        font-size: 32px;
+        color: var(--color-white);
+        margin-bottom: 20px;
+    }
+    .header-content-subtitle p {
+        font-family: "PoppinsLight";
+        font-size: 22px;
+        color: var(--color-geyser);
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .bar {
+        display: block;
+        color: var(--color-white);
+        font-size: 25px;
+        padding-right: 15px;
+    }
+    .header-navbar-menu {
+        display: none;
+    }
+    .header-content-repot h1 {
+        font-family: "PoppinsBold";
+        font-size: 34px;
+        color: var(--color-white);
+        padding-top: 10px;
+    }
+    .header-content-text h3 {
+        font-family: "Poppins";
+        font-size: 22px;
+        color: var(--color-white);
+        margin-bottom: 20px;
+    }
+    .header-content-subtitle p {
+        font-family: "PoppinsLight";
+        font-size: 18px;
+        color: var(--color-geyser);
+        margin-top: 2rem;
+    }
+}
+
+
+/* Responsive Section End */
+
 .bg-video video {
     width: 100%;
 }
@@ -20,6 +80,7 @@
     color: var(--color-white);
     font-size: 16px;
     padding: 1.3rem;
+    text-decoration: none;
 }
 
 .header-navbar-menu ul a:hover {
@@ -27,8 +88,34 @@
     transition: all .4s ease;
 }
 
-.header-navbar-button .btn {
-    font-size: 14px;
+.header-social-list span a {
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.header-social-list span a:not(:first-child) {
+    margin-left: 15px;
+}
+
+.header-social-list span .github:hover {
+    color: var(--color-charade);
+    transition: all .4s ease;
+}
+
+.header-social-list span .facebook:hover {
+    color: var(--color-cobalt);
+    transition: all .4s ease;
+}
+
+.header-social-list span .twitter:hover {
+    color: var(--color-dodger-blue);
+    transition: all .4s ease;
+}
+
+.header-social-list span .instagram:hover {
+    color: var(--color-flamingo);
+    transition: all .4s ease;
 }
 
 #home {
@@ -58,38 +145,29 @@
     transform: translate(0px, -50%);
 }
 
-.header-section {
+.navbar-dark {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 15px 20px;
+    background-color: rgba(0, 0, 0, 0.986);
+    color: #ffffff;
+    z-index: 1;
+}
+
+.header_section {
     padding-top: 15px;
     padding-left: 35px;
     padding-right: 35px;
+    transition: all .6s ease;
 }
 
 .header-navbar-social a {
     margin-left: 8px;
 }
 
-.header-content-repot h1 {
-    font-family: "PoppinsBold";
-    font-size: 64px;
-    color: var(--color-white);
-    padding-top: 10px;
-}
-
-.header-content-text h3 {
-    font-family: "Poppins";
-    font-size: 32px;
-    color: var(--color-white);
-    margin-bottom: 20px;
-}
-
-.header-content-subtitle p {
-    font-family: "PoppinsLight";
-    font-size: 22px;
-    color: var(--color-geyser);
-    margin-top: 2rem;
-}
-
-.btn-outline-success {
+.btn {
     font-family: "PoppinsLight";
     padding: .7rem 2.3rem;
     border-radius: 2rem;
@@ -98,10 +176,11 @@
     background-color: transparent;
 }
 
-.btn-outline-success:hover {
+.btn:hover {
     background-color: var(--color-mountain-meadow);
     color: var(--color-white);
     transition: all .3s ease;
+    cursor: pointer;
 }
 
 .header-content-button {
@@ -112,5 +191,11 @@
     position: relative;
 }
 
-
-/* Intro Section End */
+.down {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translate(0px, 100%);
+}
