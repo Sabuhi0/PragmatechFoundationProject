@@ -1,54 +1,102 @@
 /* About Section Start */
 
-.header-text h2 {
-    font-family: "PoppinsBold";
-    font-size: 128px;
-    text-transform: uppercase;
-    color: var(--color-iron);
-    opacity: 0.5;
+
+/* Responsive Section Start */
+
+@media only screen and (min-width: 800px) {
+    .header-text h2 {
+        font-family: "PoppinsBold";
+        font-size: 128px;
+        text-transform: uppercase;
+        color: var(--color-iron);
+        opacity: 0.5;
+    }
+    .header-text p {
+        font-family: "PoppinsBold";
+        font-size: 35px;
+    }
+    .about-information h1 {
+        font-family: "PoppinsBold";
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .about-information p {
+        font-family: "PoppinsLight";
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--color-cape-cod);
+    }
+    .list {
+        padding-left: 40px;
+    }
+    .list ul li span {
+        font-family: "PoppinsBold";
+        font-size: 18px;
+        color: var(--color-cape-cod);
+        margin-right: 5px;
+    }
+    .list ul li {
+        font-family: "PoppinsLight";
+        font-size: 18px;
+        color: var(--color-cape-cod);
+        border-bottom: 1px solid var(--color-gallery);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
 
-.header-text p {
-    font-family: "PoppinsBold";
-    font-size: 35px;
+@media only screen and (max-width: 800px) {
+    .header-text h2 {
+        font-family: "PoppinsBold";
+        font-size: 70px;
+        text-transform: uppercase;
+        color: var(--color-iron);
+        opacity: 0.5;
+    }
+    .header-text p {
+        font-family: "PoppinsBold";
+        font-size: 25px;
+    }
+    .about-information h1 {
+        font-family: "PoppinsBold";
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .about-information p {
+        font-family: "PoppinsLight";
+        font-size: 12px;
+        line-height: 1.5;
+        color: var(--color-cape-cod);
+    }
+    .about-information {
+        text-align: center;
+    }
+    .list {
+        padding-top: 18px;
+        padding-left: 0px;
+    }
+    .list ul li span {
+        font-family: "PoppinsBold";
+        font-size: 14px;
+        color: var(--color-cape-cod);
+        margin-right: 5px;
+    }
+    .list ul li {
+        font-family: "PoppinsLight";
+        font-size: 14px;
+        color: var(--color-cape-cod);
+        border-bottom: 1px solid var(--color-gallery);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
 
-.about-information h1 {
-    font-family: "PoppinsBold";
-    font-size: 32px;
-    margin-bottom: 25px;
-}
 
-.about-information p {
-    font-family: "PoppinsLight";
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--color-cape-cod);
-}
+/* Responsive Section End */
 
 .about-information h1 span,
 .list ul li a {
     color: var(--color-mountain-meadow);
-}
-
-.list ul li span {
-    font-family: "PoppinsBold";
-    font-size: 18px;
-    color: var(--color-cape-cod);
-    margin-right: 5px;
-}
-
-.list {
-    padding-left: 40px;
-}
-
-.list ul li {
-    font-family: "PoppinsLight";
-    font-size: 18px;
-    color: var(--color-cape-cod);
-    border-bottom: 1px solid var(--color-gallery);
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 
