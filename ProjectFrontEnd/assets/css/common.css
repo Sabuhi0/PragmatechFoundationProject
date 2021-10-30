@@ -149,59 +149,6 @@ table {
     margin: 0 auto;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
-}
-
-.col-1 {
-    width: calc((100%/12)*1)
-}
-
-.col-2 {
-    width: calc((100%/12)*2)
-}
-
-.col-3 {
-    width: calc((100%/12)*3)
-}
-
-.col-4 {
-    width: calc((100%/12)*4)
-}
-
-.col-5 {
-    width: calc((100%/12)*5)
-}
-
-.col-6 {
-    width: calc((100%/12)*6)
-}
-
-.col-7 {
-    width: calc((100%/12)*7)
-}
-
-.col-8 {
-    width: calc((100%/12)*8)
-}
-
-.col-9 {
-    width: calc((100%/12)*9)
-}
-
-.col-10 {
-    width: calc((100%/12)*10)
-}
-
-.col-11 {
-    width: calc((100%/12)*11)
-}
-
-.col-12 {
-    width: calc((100%/12)*12)
-}
-
 
 /* Common Css */
 
@@ -246,24 +193,36 @@ html {
 .section {
     background: var(--color-athens-gray);
     margin-top: 6rem;
-    padding-top: 6rem;
+    padding-top: 5rem;
     padding-bottom: 4rem;
 }
 
-.mt-1 {
-    margin-top: 4.5rem;
-}
-
-.mb-1 {
-    margin-bottom: 1.5rem;
+.position-center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
 }
 
 .mt-4 {
     margin-top: 4rem;
 }
 
-.mt-5 {
-    margin-top: 5rem;
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.mb-6 {
+    margin-bottom: 6rem;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
 }
 
 .pt-6 {
