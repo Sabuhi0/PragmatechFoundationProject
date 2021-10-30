@@ -1,5 +1,32 @@
 /* Footer Section Start */
 
+
+/* Responsive Section Start */
+
+@media only screen and (min-width: 800px) {
+    .footer-item {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-item ul {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .footer-text,
+    .footer-items {
+        text-align: center;
+    }
+    .footer-items ul {
+        display: inline-flex;
+        padding-top: 16px;
+    }
+}
+
+
+/* Responsive Section End */
+
 .footer-text {
     font-family: "PoppinsLight";
 }
@@ -12,7 +39,7 @@
 .footer-nav-item a {
     font-family: "PoppinsLight";
     color: var(--color-charade);
-    margin-left: 20px;
+    text-decoration: none;
 }
 
 .footer-nav-item a:hover {
@@ -23,6 +50,14 @@
 #footer {
     margin-top: 4rem;
     margin-bottom: 4rem;
+}
+
+.line {
+    width: 1px;
+    height: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
