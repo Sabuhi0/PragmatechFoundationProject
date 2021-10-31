@@ -4,6 +4,10 @@
     margin-top: 5rem;
 }
 
+.work-section {
+    padding-top: 40px;
+}
+
 .work-section-items {
     position: relative;
 }
@@ -17,8 +21,6 @@
 
 .overlay-item {
     position: absolute;
-    /* width: 100%;
-    height: 100%; */
     top: 0;
     bottom: 2px;
     left: 0;
