@@ -6,7 +6,7 @@
 @media only screen and (min-width: 800px) {
     .item h1 {
         font-family: "Poppins";
-        font-size: 25px;
+        font-size: 20px;
         color: var(--color-charade);
     }
     .item p {
@@ -34,36 +34,60 @@
 
 /* Responsive Section End */
 
-.list-groups {
-    padding-top: 20px;
-}
-
 .fa-html5,
 .fa-css3-alt,
 .fa-bootstrap,
-.fa-js {
+.fa-js,
+.fa-figma,
+.fa-python {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: white;
+    border-radius: 5px;
     padding: 10px 20px;
 }
 
-.list-groups .fa-html5 {
-    font-size: 45px;
-    color: var(--color-blaze-orange);
+.list-groups .fa-html5,
+.list-groups .fa-css3-alt,
+.list-groups .fa-bootstrap,
+.list-groups .fa-js,
+.list-groups .fa-figma,
+.list-groups .fa-python {
+    font-size: 35px;
+    color: var(--color-mountain-meadow);
 }
 
-.list-groups .fa-css3-alt {
-    font-size: 45px;
+.list-icon:hover .fa-figma {
+    color: red;
+    transition: all .3s ease;
+}
+
+.list-icon:hover .fa-html5 {
+    color: var(--color-flamingo);
+    transition: all .3s ease;
+}
+
+.list-icon:hover .fa-css3-alt {
     color: var(--color-fun-blue);
+    transition: all .3s ease;
 }
 
-.list-groups .fa-bootstrap {
-    font-size: 45px;
+.list-icon:hover .fa-bootstrap {
     color: var(--color-studio);
+    transition: all .3s ease;
 }
 
-.list-groups .fa-js {
-    font-size: 45px;
+.list-icon:hover .fa-js {
     color: var(--color-gold);
+    transition: all .3s ease;
+}
+
+.list-icon:hover .fa-python {
+    color: #306998;
+    transition: all .3s ease;
 }
 
 .item {
