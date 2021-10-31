@@ -141,11 +141,12 @@ table {
 /* 12 Column Grid System */
 
 .container-full {
-    width: 100%;
+    min-width: 100%;
 }
 
 .container {
-    width: 1110px;
+    min-width: 1110px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -248,3 +249,74 @@ html {
 .mb-25 {
     margin-bottom: 25px;
 }
+
+
+/*  */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+
+.scroll-button button {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: var(--color-white);
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+    transition: all 0.3s ease-in-out;
+    border: none;
+    outline: none;
+}
+
+.scroll-button button:hover {
+    background-color: var(--color-mountain-meadow);
+    color: var(--color-white);
+}
+
+
+/* #button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+} */
+
+
+/* 
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+} */
+
+
+/* #button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#button:active {
+    background-color: #555;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+} */
