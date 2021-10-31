@@ -21,6 +21,10 @@
 <!-- Test commit -->
 
 <body>
+    <!-- Click Scroll top -->
+    <div class="scroll-button">
+        <button type="button" id="btn-back-to-top"><i class="fas fa-chevron-up"></i></button>
+    </div>
     <main id="home">
         <!-- Intro Section Start -->
         <div class="overlay"></div>
@@ -94,8 +98,8 @@
                 <div class="header-content-text">
                     <h3>Welcome</h3>
                 </div>
-                <div class="header-content-repot">
-                    <h1>I'm Sabuhi Gasimov</h1>
+                <div id="text" class="header-content-repot">
+                    <p>I'm <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
                 </div>
                 <div class="header-content-subtitle">
                     <p>based in Baku,Azerbaijan.</p>
@@ -106,13 +110,13 @@
                     </a>
                 </div>
             </div>
+            <a href="#about" class="scroll-down">
+                <span class="animated">
+                    <i class="fas fa-angle-down"></i>
+                </span>
+            </a>
         </div>
         <!-- Intro Section End -->
-        <a href="#about">
-            <span class="animated">
-                <i class="fas fa-angle-down"></i>
-            </span>
-        </a>
     </main>
     <section id="about">
         <!-- About Section Start -->
@@ -165,52 +169,67 @@
             </div>
             <!-- Headnig Section End -->
             <div class="container">
-                <div class="row mt-4">
-                    <div class="col-md-6 list-groups d-flex">
-                        <div class="list-icon">
-                            <i class="fab fa-html5"></i>
-                        </div>
-                        <div class="item">
-                            <h1>Html</h1>
-                            <p>Brauzerin oxuya biləcəyi hər hansı sənədi və ya səhifəni yaratmaq üçün xüsusi hipermətn dilidir.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 list-groups d-flex">
-                        <div class="list-icon">
-                            <i class="fab fa-css3-alt"></i>
-                        </div>
-                        <div class="item">
-                            <h1>Css</h1>
-                            <p>Sənədin xarici görünüşünün, işarələmə dilinin istifadəsi ilə yazılmış, formal təsvir dili.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 list-groups d-flex">
-                        <div class="list-icon">
-                            <i class="fab fa-html5"></i>
-                        </div>
-                        <div class="item">
-                            <h1>Html</h1>
-                            <p>Brauzerin oxuya biləcəyi hər hansı sənədi və ya səhifəni yaratmaq üçün xüsusi hipermətn dilidir.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 list-groups d-flex">
-                        <div class="list-icon">
-                            <i class="fab fa-css3-alt"></i>
-                        </div>
-                        <div class="item">
-                            <h1>Css</h1>
-                            <p>Sənədin xarici görünüşünün, işarələmə dilinin istifadəsi ilə yazılmış, formal təsvir dili.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 list-groups d-flex">
+                <div class="row mt-5">
+                    <div class="col-md-6 list-groups mb-5 d-flex">
                         <div class="list-icon">
                             <i class="fab fa-figma"></i>
                         </div>
                         <div class="item">
                             <h1>Graphic Design</h1>
-                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+                            <p>Qrafik dizaynerlər bir çox sahələrdə işləyirlər, lakin bəzi sahələr vardır ki, bu sahənin inkişafında qrafik diaynerlərin rolu birinci dərəcəlidir. İnternet və çap dünyasında ixtisaslı qrafik dizaynerlərə böyük imkanlar var
+                                və bu sahələr iqtisadiyyatın ən sabit və ənənəvi sektorlarıdır.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 list-groups mb-5 d-flex">
+                        <div class="list-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="item">
+                            <h1>Html</h1>
+                            <p>Brauzerin oxuya biləcəyi hər hansı sənədi və ya səhifəni yaratmaq üçün xüsusi hipermətn dilidir. HTML internetin fundamental baza texnologiyasıdır və veb-səhifənin növünü, funksiyasını təyin edən diskriptorlar əsasında yaradılmış
+                                dildir.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 list-groups mb-5 d-flex">
+                        <div class="list-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="item">
+                            <h1>Css</h1>
+                            <p>Sənədin xarici görünüşünün, işarələmə dilinin istifadəsi ilə yazılmış, formal təsvir dili. Adətən HTML və XHTML işarələmə dillərində yazılmış veb-səhifələrin təsviri və tərtibatı üçün istifadə edilir, lakin istənilən digər
+                                XML sənədlərə, məsələn, SVG və ya XUL-a da tətbiq edilə bilər.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 list-groups mb-5 d-flex">
+                        <div class="list-icon">
+                            <i class="fab fa-bootstrap"></i>
+                        </div>
+                        <div class="item">
+                            <h1>Bootstrap</h1>
+                            <p>Bootstrap - veb səhifələri və tətbiqetmələri yaratmaq üçün istifadə olunan açıq mənbə alətidir və HTML və CSS vasitəsiylə yazı növləri, formlar, düymələr, navigasiya və başqa komponentlər üçün istifadə olunan xüsusi dizayn
+                                qəliblərindən ibarətdir. Əsas hədəf dinamik veb səhifələri, veb tətbiqetmələri yaratmaq və onların inkişafını sadələşdirməkdir.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 list-groups mb-5 d-flex">
+                        <div class="list-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="item">
+                            <h1>Java Script</h1>
+                            <p>JavaScript – internet səhifələrin yaradılmasında geniş istifadə olunan proqramlaşdırma dilidir. JavaScript müxtəlif dilllərdən ilhamlanaraq yaradılmışdır. 1995-ci ilə Brendan Eyx tərəfindən yazılmışdır. JavaScript Obyekt Yönümlü
+                                Proqramlaşdırma (OYP) dilidir. Obyektə Yönümlü Proqramlaşdırma mövzusu kifayət qədər mürəkkəb proqramlaşdırmadır.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 list-groups mb-5 d-flex">
+                        <div class="list-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="item">
+                            <h1>Python</h1>
+                            <p>Python dili - interpretasiya olunan, yüksək səviyyəli və ümumi-məqsədli proqramlaşdırma dilidir. 1991-ci ildə Guido van Rossum tərəfindən yaradılmışdır. Python dilinin dizayn fəlsəfəsi boşluqlardan istifadə edərək kod oxunaqlılığını
+                                vurğulayır. Bu dilin məqsədi onun dil quruluşu və obyekt-yönümlülüyü ilə proqramçılara xırda və iri həcimli layihələrdə aydın, məntiqli kod yazmağa kömək etməkdir.</p>
                         </div>
                     </div>
                 </div>
@@ -254,7 +273,7 @@
                         <div class="col-md-6 skill-item">
                             <div class="d-flex justify-content-between mb-10">
                                 <p>
-                                    JavaScript
+                                    JavaScript/Python
                                 </p>
                                 <span>50%</span>
                             </div>
@@ -386,237 +405,79 @@
                 <p class="position-center text-center ">Client Speak</p>
             </div>
             <!-- Headnig Section End -->
-            <div class="row-feedback">
-                <!-- <div class="slide-items">
-                    <div class="feedback-item">
-                        <div class="d-flex align-items-center mb-25">
-                            <img style="border-radius: 50%; width: 65px; height: 65px;" src="./assets/images/png/man.png" alt="">
-                            <div class="feedbacks-item ml-12">
-                                <h1 class="mb-10">Samir Karimov </h1>
-                                <small>Baku,Azerbaijan</small>
-                            </div>
+            <div class="row-feedbacks mt-5">
+                <div class="feedback-item">
+                    <div class="d-flex align-items-center mb-25">
+                        <img style="border-radius: 50%; width: 65px; height: 65px;" src="./assets/images/png/man.png" alt="">
+                        <div class="feedbacks-item ml-12">
+                            <h1 class="mb-10">Samir Karimov </h1>
+                            <small>Baku,Azerbaijan</small>
                         </div>
-                        <div class="feedbacks-item mb-25">
-                            <p>“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.”</p>
-                        </div>
-                        <div class="point d-flex justify-content-between">
+                    </div>
+                    <div class="feedbacks-item mb-25">
+                        <p>“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.”</p>
+                    </div>
+                    <div class="point d-flex justify-content-between">
+                        <span>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </span>
+                        <div class="social-list">
                             <span>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
+                                <a href="https://github.com/samirkarimov" class="github">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://github.com/samirkarimov" class="github">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
                             </span>
-                            <div class="social-list">
-                                <span>
-                                    <a href="https://github.com/samirkarimov" class="github">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="#" class="facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="https://github.com/samirkarimov" class="github">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="#" class="facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </span>
-                            </div>
                         </div>
                     </div>
-                    <div class="feedback-item">
-                        <div class="d-flex align-items-center mb-25">
-                            <img style="border-radius: 50%; width: 65px; height: 65px;" src="./assets/images/png/person.png" alt="">
-                            <div class="feedbacks-item ml-12">
-                                <h1 class="mb-10">Aslan Mammadrzayev</h1>
-                                <small>Baku,Azerbaijan</small>
-                            </div>
+                </div>
+                <div class="feedback-item">
+                    <div class="d-flex align-items-center mb-25">
+                        <img style="border-radius: 50%; width: 65px; height: 65px;" src="./assets/images/png/person.png" alt="">
+                        <div class="feedbacks-item ml-12">
+                            <h1 class="mb-10">Aslan Mammadrzayev</h1>
+                            <small>Baku,Azerbaijan</small>
                         </div>
-                        <div class="feedbacks-item mb-25">
-                            <p>“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et.”</p>
-                        </div>
-                        <div class="point d-flex justify-content-between">
+                    </div>
+                    <div class="feedbacks-item mb-25">
+                        <p>“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.”</p>
+                    </div>
+                    <div class="point d-flex justify-content-between">
+                        <span>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </span>
+                        <div class="social-list">
                             <span>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
+                                <a href="https://github.com/Profile" class="github">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.facebook.com/muhammadd.rza" class="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://github.com/Profile" class="github">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.facebook.com/muhammadd.rza" class="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
                             </span>
-                            <div class="social-list">
-                                <span>
-                                    <a href="https://github.com/Profile" class="github">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="https://www.facebook.com/muhammadd.rza" class="facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="https://github.com/Profile" class="github">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="https://www.facebook.com/muhammadd.rza" class="facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </span>
-                            </div>
                         </div>
-                    </div>
-                </div> -->
-                <div class="slider-container">
-                    <div class="slide-items">
-                        <div class="slide-item">
-                            <div class="d-flex align-items-center mb-25">
-                                <img style="border-radius: 50%; width: 65px; height: 65px;" src="./assets/images/png/man.png" alt="">
-                                <div class="feedbacks-item ml-12">
-                                    <h1 class="mb-10">Samir Karimov </h1>
-                                    <small>Baku,Azerbaijan</small>
-                                </div>
-                            </div>
-                            <div class="feedbacks-item mb-25">
-                                <p>“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.”</p>
-                            </div>
-                            <div class="point d-flex justify-content-between">
-                                <span>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                            </span>
-                                <div class="social-list">
-                                    <span>
-                                    <a href="https://github.com/samirkarimov" class="github">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="#" class="facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="https://github.com/samirkarimov" class="github">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="#" class="facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide-item">
-                            <div class="d-flex align-items-center mb-25">
-                                <img style="border-radius: 50%; width: 65px; height: 65px;" src="./assets/images/png/man.png" alt="">
-                                <div class="feedbacks-item ml-12">
-                                    <h1 class="mb-10">Samir Karimov </h1>
-                                    <small>Baku,Azerbaijan</small>
-                                </div>
-                            </div>
-                            <div class="feedbacks-item mb-25">
-                                <p>“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.”</p>
-                            </div>
-                            <div class="point d-flex justify-content-between">
-                                <span>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                            </span>
-                                <div class="social-list">
-                                    <span>
-                                    <a href="https://github.com/samirkarimov" class="github">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="#" class="facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="https://github.com/samirkarimov" class="github">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="#" class="facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide-item">
-                            <div class="d-flex align-items-center mb-25">
-                                <img style="border-radius: 50%; width: 65px; height: 65px;" src="./assets/images/png/man.png" alt="">
-                                <div class="feedbacks-item ml-12">
-                                    <h1 class="mb-10">Samir Karimov </h1>
-                                    <small>Baku,Azerbaijan</small>
-                                </div>
-                            </div>
-                            <div class="feedbacks-item mb-25">
-                                <p>“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.”</p>
-                            </div>
-                            <div class="point d-flex justify-content-between">
-                                <span>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                            </span>
-                                <div class="social-list">
-                                    <span>
-                                    <a href="https://github.com/samirkarimov" class="github">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="#" class="facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="https://github.com/samirkarimov" class="github">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="#" class="facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide-item">
-                            <div class="d-flex align-items-center mb-25">
-                                <img style="border-radius: 50%; width: 65px; height: 65px;" src="./assets/images/png/man.png" alt="">
-                                <div class="feedbacks-item ml-12">
-                                    <h1 class="mb-10">Samir Karimov </h1>
-                                    <small>Baku,Azerbaijan</small>
-                                </div>
-                            </div>
-                            <div class="feedbacks-item mb-25">
-                                <p>“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. Excellent.”</p>
-                            </div>
-                            <div class="point d-flex justify-content-between">
-                                <span>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                                <i class="fas fa-star text-warning"></i>
-                            </span>
-                                <div class="social-list">
-                                    <span>
-                                    <a href="https://github.com/samirkarimov" class="github">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="#" class="facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="https://github.com/samirkarimov" class="github">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="#" class="facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="arrows">
-                        <div class="btn" onclick="right()">right</div>
-                        <div class="btn" onclick="left()">left</div>
                     </div>
                 </div>
             </div>
@@ -678,7 +539,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 col-md-1 admin-contact mt-4">
+                    <div class="col-md-9 col-md-1 admin-contact mt-4">
                         <h1>Send Us A Note</h1>
                         <div class="form">
                             <form action="#">
