@@ -1,8 +1,24 @@
 /* Feedbacks Section Start */
 
+@media only screen and (min-width: 800px) {
+    .row-feedbacks {
+        display: grid;
+        gap: 25px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .row-feedbacks {
+        display: grid;
+        gap: 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .feedback-item {
     background: var(--color-athens-gray);
-    padding: 2.8rem;
+    padding: 3rem;
 }
 
 .feedbacks-item h1 {
