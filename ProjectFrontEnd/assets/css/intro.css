@@ -143,11 +143,10 @@
 
 .intro-position-center {
     position: absolute;
-    left: 0;
-    right: 0;
+    width: 100%;
     top: 50%;
-    bottom: 0;
-    transform: translate(0px, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .navbar-dark {
@@ -190,10 +189,6 @@
 
 .header-content-button {
     padding-top: 32px;
-}
-
-.position-relative {
-    position: relative;
 }
 
 .scroll-down {
