@@ -48,7 +48,7 @@
 @media only screen and (max-width: 800px) {
     .header-text h2 {
         font-family: "PoppinsBold";
-        font-size: 70px;
+        font-size: 60px;
         text-transform: uppercase;
         color: var(--color-iron);
         opacity: 0.5;
