@@ -145,7 +145,7 @@ table {
 }
 
 .container {
-    min-width: 1110px;
+    max-width: 1110px;
     width: 100%;
     margin: 0 auto;
 }
