@@ -9,6 +9,7 @@
     }
     .header-content-repot p {
         font-family: "PoppinsBold", sans-serif;
+        height: 82px;
         font-size: 64px;
         color: var(--color-white);
         padding-top: 10px;
@@ -24,7 +25,7 @@
         font-family: "PoppinsLight", sans-serif;
         font-size: 22px;
         color: var(--color-geyser);
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 }
 
@@ -137,7 +138,7 @@
     position: absolute;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 4, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 0;
 }
 
