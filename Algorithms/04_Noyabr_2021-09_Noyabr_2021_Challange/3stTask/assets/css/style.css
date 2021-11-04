@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #202020;
+}
+
+.box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    font-family: "PoppinsBold", sans-serif;
+    text-align: center;
+    font-size: 64px;
+    color: #fff;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+
+/* Typing Effect  */
+
+.cursor {
+    width: 4px;
+    display: inline-flex;
+    background-color: var(--color-white);
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+
+.box p .typed-text {
+    color: var(--color-mountain-meadow);
+}
+
+.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #ccc;
+    }
+    50% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: #ccc;
+    }
+}
