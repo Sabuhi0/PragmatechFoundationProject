@@ -1,21 +1,10 @@
-// const body = document.querySelector("body")
-// const btn = document.querySelector("button")
+var actionBtn = document.querySelector(".action");
+var changingTxt = document.querySelector(".backgroundColor span");
 
-// function clickMe(parm1) {
-//     if (parm1 = 1) {
-//         body.style.background = "red"
-//         btn.innerHTML = "Red"
-//     }
-// }
+actionBtn.addEventListener("click", myFunction);
 
-let body = document.querySelector("body");
-let btn = document.querySelector("#btn")
-btn.onclick = function() {
-    if (body.classList.contains("active")) {
-        body.classList.remove("active")
-        btn.innerHTML = "Black"
-    } else {
-        body.classList.add("active")
-        btn.innerHTML = "Turboa"
-    }
+function myFunction() {
+    let RandomColor = "#" + Math.random().toString(16).substr(2, 6);
+    changingTxt.textContent = RandomColor;
+    document.body.style.backgroundColor = RandomColor;
 }
