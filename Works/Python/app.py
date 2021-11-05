@@ -12,5 +12,8 @@ user = {
     "age":21,
 }
 
-print(user['age'])
+user['Form'] = 'Baku'
+
+print(user)
+print(user.clear())
 
