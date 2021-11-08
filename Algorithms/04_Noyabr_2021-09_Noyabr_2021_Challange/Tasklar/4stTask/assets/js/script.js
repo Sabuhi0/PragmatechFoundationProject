@@ -1,4 +1,3 @@
-// console.log("clock night 02:20")
 let sum = 0;
 
 function plus() {
