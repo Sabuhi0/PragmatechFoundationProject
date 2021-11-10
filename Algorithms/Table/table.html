@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/table.css">
+</head>
+
+<body>
+    <div class="header">
+        <input type="text" id="name" placeholder="Ad daxil edin..">
+    </div>
+    <div class="algo">
+        <div class="algoresult">
+            <h1>Algoritmlər</h1>
+            <div>
+                <input type="number" id="algo_1" placeholder="Algoritm 1">
+                <input style="margin-top: 12px;" type="number" id="algo_2" placeholder="Algoritm 2">
+            </div>
+            <div>
+                <input style="margin-top: 12px;" type="number" id="algo_3" placeholder="Algoritm 3">
+                <input style="margin-top: 12px;" type="number" id="algo_4" placeholder="Algoritm 4">
+            </div>
+            <div>
+                <input style="margin-top: 12px;" type="number" id="algo_5" placeholder="Algoritm 5">
+                <input style="margin-top: 12px;" type="number" id="algo_6" placeholder="Algoritm 6">
+            </div>
+            <div>
+                <input style="margin-top: 12px;" type="number" id="algo_7" placeholder="Algoritm 7">
+                <input style="margin-top: 12px;" type="number" id="algo_8" placeholder="Algoritm 8">
+            </div>
+            <div style="text-align: center;">
+                <input style="margin-top: 12px;" type="number" id="algo_9" placeholder="Algoritm 9">
+            </div>
+        </div>
+    </div>
+    <div class="algo">
+        <div class="algoresult">
+            <h1>Tasklar</h1>
+            <div>
+                <input type="number" id="task_1" placeholder="Task 1">
+                <input style="margin-top: 12px;" type="number" id="task_2" placeholder="Task 2">
+            </div>
+            <div>
+                <input style="margin-top: 12px;" type="number" id="task_3" placeholder="Task 3">
+                <input style="margin-top: 12px;" type="number" id="task_4" placeholder="Task 4">
+            </div>
+        </div>
+    </div>
+    <div class="btn">
+        <button class="button" onclick="total()">TOTAL</button>
+    </div>
+    <div class="list">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Algo-score</th>
+                <th>Task-score</th>
+                <th>Total-score</th>
+                <!-- <th>Score-Average</th> -->
+            </tr>
+        </table>
+    </div>
+    <!-- JS -->
+    <script src="./assets/js/table.js"></script>
+</body>
+
+</html>
