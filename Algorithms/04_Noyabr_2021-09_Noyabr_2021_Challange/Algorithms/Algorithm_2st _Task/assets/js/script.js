@@ -1,10 +1,5 @@
 // console.log("Hello")
 
-let num = prompt("eded daxil edin")
-Number("x")
-let full = parseInt(num)
-let a = num - full
-let b = a.toPrecision(2)
-
-let result = (100 * b) + full
-document.write(result)
+let a = prompt("Reqem daxil edin : ")
+let d = a.split(".")
+console.log(Number(d[0]) + Number(d[1]))
