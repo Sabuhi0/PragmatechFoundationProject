@@ -1,5 +1,5 @@
 // console.log("Hello")
 
-let a = prompt("Reqem daxil edin : ")
-let d = a.split(".")
+let number = prompt("Reqem daxil edin : ")
+let num = number.split(".")
 console.log(Number(d[0]) + Number(d[1]))
