@@ -22,6 +22,9 @@ const task_4 = document.querySelector('#task_4');
 
 btnAdd.addEventListener('click', () => {
     const name = nameInput.value;
+    if (name === null || name === "") {
+        alert("Zehmet olmasa ad daxil edin")
+    }
     const point = algo_1.value
     const point2 = algo_2.value
     const point3 = algo_3.value

@@ -1,5 +1,4 @@
 body {
-    max-width: 100%;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -7,15 +6,24 @@ body {
     height: 1200px;
 }
 
-.algo,
+.container {
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.task-section,
 .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 16px;
 }
 
+.d-flex {
+    display: flex;
+}
+
 input {
+    width: 100%;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: #333;
     font-size: 18px;
@@ -28,11 +36,12 @@ input {
 
 .btn {
     float: right;
-    margin-right: 35px;
+    margin-top: 35px;
     margin-bottom: 35px;
 }
 
 button {
+    font-size: 15px;
     padding: 15px 20px;
     margin-left: 10px;
     background: #333;
@@ -45,15 +54,13 @@ button {
     background: #202020;
 }
 
-.algoresult h1 {
+.task-items h1 {
     text-align: center;
     font-size: 20px;
 }
 
 .list {
     margin-top: 3rem;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
 table {

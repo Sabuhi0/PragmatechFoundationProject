@@ -11,59 +11,67 @@
 </head>
 
 <body>
-    <div class="header">
-        <input type="text" id="name" placeholder="Ad daxil edin..">
-    </div>
-    <div class="algo">
-        <div class="algoresult">
-            <h1>Algoritmlər</h1>
-            <div>
-                <input type="number" id="algo_1" placeholder="Algoritm 1">
-                <input style="margin-top: 12px;" type="number" id="algo_2" placeholder="Algoritm 2">
+    <div class="container">
+        <form action="#">
+            <div class="header">
+                <input type="text" id="name" required placeholder="Ad daxil edin..">
             </div>
-            <div>
-                <input style="margin-top: 12px;" type="number" id="algo_3" placeholder="Algoritm 3">
-                <input style="margin-top: 12px;" type="number" id="algo_4" placeholder="Algoritm 4">
+            <!-- Algorithms Section Start -->
+            <div class="task-section">
+                <div class="task-items">
+                    <h1>Algoritmlər</h1>
+                    <div class="d-flex">
+                        <input style="margin-right: 10px;" type="number" id="algo_1" min="0" max="5" required placeholder="Algoritm 1">
+                        <input min="0" max="5" required type="number" id="algo_2" placeholder="Algoritm 2">
+                    </div>
+                    <div class="d-flex">
+                        <input style="margin-top: 12px; margin-right: 10px;" min="0" max="5" required type="number" id="algo_3" placeholder="Algoritm 3">
+                        <input style="margin-top: 12px;" min="0" max="5" required type="number" id="algo_4" placeholder="Algoritm 4">
+                    </div>
+                    <div class="d-flex">
+                        <input style="margin-top: 12px; margin-right: 10px;" min="0" max="5" required type="number" id="algo_5" placeholder="Algoritm 5">
+                        <input style="margin-top: 12px;" min="0" max="5" required type="number" id="algo_6" placeholder="Algoritm 6">
+                    </div>
+                    <div class="d-flex">
+                        <input style="margin-top: 12px; margin-right: 10px;" min="0" max="5" required type="number" id="algo_7" placeholder="Algoritm 7">
+                        <input style="margin-top: 12px;" min="0" max="5" required type="number" id="algo_8" placeholder="Algoritm 8">
+                    </div>
+                    <div class="d-flex" style="text-align: center;">
+                        <input style="margin-top: 12px;" min="0" max="5" required type="number" id="algo_9" placeholder="Algoritm 9">
+                    </div>
+                </div>
             </div>
-            <div>
-                <input style="margin-top: 12px;" type="number" id="algo_5" placeholder="Algoritm 5">
-                <input style="margin-top: 12px;" type="number" id="algo_6" placeholder="Algoritm 6">
+            <!-- Algorithms Section End -->
+            <!-- Tasks Section Start -->
+            <div class="task-section">
+                <div class="task-items">
+                    <h1>Tasklar</h1>
+                    <div class="d-flex">
+                        <input style="margin-right: 10px;" type="number" id="task_1" min="0" max="10" placeholder="Task 1">
+                        <input min="0" max="10" type="number" id="task_2" placeholder="Task 2">
+                    </div>
+                    <div class="d-flex">
+                        <input style="margin-top: 12px; margin-right: 8px;" min="0" max="10" type="number" id="task_3" placeholder="Task 3">
+                        <input style="margin-top: 12px;" min="0" max="10" type="number" id="task_4" placeholder="Task 4">
+                    </div>
+                </div>
             </div>
-            <div>
-                <input style="margin-top: 12px;" type="number" id="algo_7" placeholder="Algoritm 7">
-                <input style="margin-top: 12px;" type="number" id="algo_8" placeholder="Algoritm 8">
+            <!-- Tasks Section End -->
+            <div class="btn">
+                <button class="button">Total</button>
             </div>
-            <div style="text-align: center;">
-                <input style="margin-top: 12px;" type="number" id="algo_9" placeholder="Algoritm 9">
-            </div>
+        </form>
+        <div class="list">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Algo-score</th>
+                    <th>Task-score</th>
+                    <th>Total-score</th>
+                    <!-- <th>Score-Average</th> -->
+                </tr>
+            </table>
         </div>
-    </div>
-    <div class="algo">
-        <div class="algoresult">
-            <h1>Tasklar</h1>
-            <div>
-                <input type="number" id="task_1" placeholder="Task 1">
-                <input style="margin-top: 12px;" type="number" id="task_2" placeholder="Task 2">
-            </div>
-            <div>
-                <input style="margin-top: 12px;" type="number" id="task_3" placeholder="Task 3">
-                <input style="margin-top: 12px;" type="number" id="task_4" placeholder="Task 4">
-            </div>
-        </div>
-    </div>
-    <div class="btn">
-        <button class="button" onclick="total()">TOTAL</button>
-    </div>
-    <div class="list">
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Algo-score</th>
-                <th>Task-score</th>
-                <th>Total-score</th>
-                <!-- <th>Score-Average</th> -->
-            </tr>
-        </table>
     </div>
     <!-- JS -->
     <script src="./assets/js/table.js"></script>
