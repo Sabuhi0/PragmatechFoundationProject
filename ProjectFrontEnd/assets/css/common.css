@@ -191,6 +191,11 @@ html {
     text-align: center;
 }
 
+::selection {
+    background: #20c997;
+    color: var(--color-white);
+}
+
 .section {
     background: var(--color-athens-gray);
     margin-top: 6rem;
