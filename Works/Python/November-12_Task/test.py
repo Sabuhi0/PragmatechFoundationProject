@@ -53,3 +53,16 @@ def icindeEHerfiOlaniTap():
         else:
             print(f'{ad} sozunde e herfi yoxdur')
 icindeEHerfiOlaniTap()
+
+print(
+    """
+    - Son hərfi i olan adlari ekrana cap eden metod yazin
+    """
+)
+
+def sonHerifiIolanTap():
+    for ad in adlar:
+        if ad.find('i',-1)!=-1:
+            print(ad)
+
+sonHerifiIolanTap()
