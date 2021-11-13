@@ -11,37 +11,8 @@
         color: var(--color-iron);
         opacity: 0.5;
     }
-    .header-text p {
-        font-family: "PoppinsBold";
-        font-size: 35px;
-    }
-    .about-information h1 {
-        font-family: "PoppinsBold";
-        font-size: 30px;
-        margin-bottom: 25px;
-    }
-    .about-information p {
-        font-family: "PoppinsLight";
-        font-size: 16px;
-        line-height: 1.5;
-        color: var(--color-cape-cod);
-    }
     .list {
         padding-left: 40px;
-    }
-    .list ul li span {
-        font-family: "PoppinsBold";
-        font-size: 18px;
-        color: var(--color-cape-cod);
-        margin-right: 5px;
-    }
-    .list ul li {
-        font-family: "PoppinsLight";
-        font-size: 18px;
-        color: var(--color-cape-cod);
-        border-bottom: 1px solid var(--color-gallery);
-        padding-top: 15px;
-        padding-bottom: 15px;
     }
 }
 
@@ -53,21 +24,6 @@
         color: var(--color-iron);
         opacity: 0.5;
     }
-    .header-text p {
-        font-family: "PoppinsBold";
-        font-size: 25px;
-    }
-    .about-information h1 {
-        font-family: "PoppinsBold";
-        font-size: 25px;
-        margin-bottom: 25px;
-    }
-    .about-information p {
-        font-family: "PoppinsLight";
-        font-size: 12px;
-        line-height: 1.5;
-        color: var(--color-cape-cod);
-    }
     .about-information {
         text-align: center;
     }
@@ -75,24 +31,44 @@
         padding-top: 18px;
         padding-left: 0px;
     }
-    .list ul li span {
-        font-family: "PoppinsBold";
-        font-size: 14px;
-        color: var(--color-cape-cod);
-        margin-right: 5px;
-    }
-    .list ul li {
-        font-family: "PoppinsLight";
-        font-size: 14px;
-        color: var(--color-cape-cod);
-        border-bottom: 1px solid var(--color-gallery);
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
 }
 
 
 /* Responsive Section End */
+
+.about-information h1 {
+    font-family: "PoppinsBold";
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.header-text p {
+    font-family: "PoppinsBold";
+    font-size: 35px;
+}
+
+.about-information p {
+    font-family: "PoppinsLight";
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--color-cape-cod);
+}
+
+.list ul li span {
+    font-family: "PoppinsBold";
+    font-size: 18px;
+    color: var(--color-cape-cod);
+    margin-right: 5px;
+}
+
+.list ul li {
+    font-family: "PoppinsLight";
+    font-size: 18px;
+    color: var(--color-cape-cod);
+    border-bottom: 1px solid var(--color-gallery);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 .about-information h1 span,
 .list ul li a {
