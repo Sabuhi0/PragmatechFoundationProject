@@ -1,38 +1,17 @@
 /* What I do? Section Start */
 
-
-/* Responsive Section Start */
-
-@media only screen and (min-width: 800px) {
-    .item h1 {
-        font-family: "Poppins";
-        font-size: 20px;
-        color: var(--color-charade);
-    }
-    .item p {
-        font-family: "PoppinsLight", sans-serif;
-        color: var(--color-cape-cod);
-        padding-top: 10px;
-        line-height: 1.5;
-    }
+.item h1 {
+    font-family: "Poppins";
+    font-size: 20px;
+    color: var(--color-charade);
 }
 
-@media only screen and (max-width: 800px) {
-    .item h1 {
-        font-family: "Poppins";
-        font-size: 20px;
-        color: var(--color-charade);
-    }
-    .item p {
-        font-family: "PoppinsLight", sans-serif;
-        color: var(--color-cape-cod);
-        padding-top: 10px;
-        line-height: 1.5;
-    }
+.item p {
+    font-family: "PoppinsLight", sans-serif;
+    color: var(--color-cape-cod);
+    padding-top: 10px;
+    line-height: 1.5;
 }
-
-
-/* Responsive Section End */
 
 .fa-html5,
 .fa-css3-alt,
