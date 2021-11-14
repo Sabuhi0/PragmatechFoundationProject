@@ -31,6 +31,28 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .header .header-navbar-menu {
+        width: 100%;
+        padding: 0;
+        max-height: 0px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.877);
+        z-index: 999;
+        overflow: hidden;
+        visibility: hidden;
+        transition: all 0.5s ease;
+    }
+    .header .header-navbar-menu.open {
+        visibility: visible;
+    }
+    .header .header-navbar-menu ul li {
+        padding: 10px;
+        display: block;
+        margin: 0;
+    }
+    .header .header-navbar-menu ul li:not(:last-child) {
+        border-bottom: 1px solid var(--color-cape-cod);
+    }
     .cursor {
         display: inline-flex;
         width: 4px;
@@ -44,9 +66,6 @@
         color: var(--color-white);
         font-size: 25px;
         padding-right: 15px;
-    }
-    .header-navbar-menu {
-        display: none;
     }
     .header-content-repot p {
         font-family: "PoppinsBold", sans-serif;
@@ -65,6 +84,18 @@
 
 
 /* Responsive Section End */
+
+.header-navbar-name
+/* .header-navbar-menu*/
+
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.header-navbar-menu ul li {
+    display: inline-block;
+}
 
 .header-content-subtitle p {
     font-family: "PoppinsLight", sans-serif;
@@ -165,7 +196,6 @@
     left: 0;
     top: 0;
     right: 0;
-    padding: 15px 20px;
     background-color: rgba(0, 0, 0, 0.986);
     color: #ffffff;
     z-index: 999;
@@ -173,6 +203,7 @@
 
 .header_section {
     padding-top: 15px;
+    padding-bottom: 15px;
     transition: all .6s ease;
 }
 

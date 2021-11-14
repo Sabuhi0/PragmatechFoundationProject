@@ -77,3 +77,20 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
     if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+
+// Bar Sidebar
+
+const navToggler = document.querySelector(".bar");
+navToggler.addEventListener("click", navToggle);
+
+function navToggle() {
+    navToggler.classList.toggle("active");
+    const nav = document.querySelector(".header-navbar-menu");
+    nav.classList.toggle("open");
+    if (nav.classList.contains("open")) {
+        nav.style.maxHeight = nav.scrollHeight + "px";
+    } else {
+        nav.removeAttribute("style");
+    }
+}
