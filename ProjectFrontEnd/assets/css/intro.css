@@ -31,28 +31,6 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .header .header-navbar-menu {
-        width: 100%;
-        padding: 0;
-        max-height: 0px;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.877);
-        z-index: 999;
-        overflow: hidden;
-        visibility: hidden;
-        transition: all 0.5s ease;
-    }
-    .header .header-navbar-menu.open {
-        visibility: visible;
-    }
-    .header .header-navbar-menu ul li {
-        padding: 10px;
-        display: block;
-        margin: 0;
-    }
-    .header .header-navbar-menu ul li:not(:last-child) {
-        border-bottom: 1px solid var(--color-cape-cod);
-    }
     .cursor {
         display: inline-flex;
         width: 4px;
@@ -66,6 +44,9 @@
         color: var(--color-white);
         font-size: 25px;
         padding-right: 15px;
+    }
+    .header-navbar-menu {
+        display: none;
     }
     .header-content-repot p {
         font-family: "PoppinsBold", sans-serif;
@@ -84,18 +65,6 @@
 
 
 /* Responsive Section End */
-
-.header-navbar-name
-/* .header-navbar-menu*/
-
-{
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.header-navbar-menu ul li {
-    display: inline-block;
-}
 
 .header-content-subtitle p {
     font-family: "PoppinsLight", sans-serif;
@@ -117,7 +86,7 @@
     color: var(--color-white);
 }
 
-.header-navbar-name a span {
+.header-navbar-name h1 span {
     color: var(--color-mountain-meadow);
 }
 
@@ -179,8 +148,10 @@
     position: absolute;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.6);
     z-index: 0;
+    opacity: 0.6;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity))!important;
 }
 
 .intro-position-center {
@@ -199,10 +170,19 @@
     background-color: rgba(0, 0, 0, 0.986);
     color: #ffffff;
     z-index: 999;
+    animation: nav_anim .6s forwards;
+}
+
+@keyframes nav_anim {
+    0% {
+        transform: translateY(-100%);
+    }
 }
 
 .header_section {
     padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-bottom: 15px;
     transition: all .6s ease;
 }
@@ -236,7 +216,7 @@
     z-index: 2;
     left: 50%;
     bottom: 4%;
-    margin-left: -60px;
+    margin-left: -20px;
     width: 32px;
     height: 32px;
     line-height: 32px;
@@ -255,9 +235,6 @@
 
 .fa-angle-down {
     fill: var(--color-white);
-    margin: auto;
-    width: 5em;
-    height: 5em;
     animation: hover-me .9s infinite ease-in-out alternate;
 }
 
