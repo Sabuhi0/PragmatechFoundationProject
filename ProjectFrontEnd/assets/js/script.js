@@ -79,18 +79,25 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
 });
 
 
-// Bar Sidebar
+// Responsive menu bar
 
-const navToggler = document.querySelector(".bar");
-navToggler.addEventListener("click", navToggle);
+// Mobile menu
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".header-navbar-menu");
 
-function navToggle() {
-    navToggler.classList.toggle("active");
-    const nav = document.querySelector(".header-navbar-menu");
-    nav.classList.toggle("open");
-    if (nav.classList.contains("open")) {
-        nav.style.maxHeight = nav.scrollHeight + "px";
-    } else {
-        nav.removeAttribute("style");
-    }
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+// Close menu
+const navLink = document.querySelectorAll(".header-navbar-menu li a");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
 }
