@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Who is Sabuhi ?</title>
     <!-- Add Icon Link -->
     <link rel="icon" href="https://www.mcsin-k12.org/images/links/schoology.png" type="image/x-icon">
@@ -40,29 +40,25 @@
     <main id="home">
         <!-- Intro Section Start -->
         <div class="overlay"></div>
-        <div class="bg-video">
-            <video autoplay loop muted>
+        <div class="bg-video" style="height: 100vh;">
+            <!-- <video autoplay loop muted>
                 <source src="./assets/video/Laptop-1625.mp4" type="video/mp4">
-            </video>
+            </video> -->
+            <img width="100%" height="100%" style="object-fit: cover;" src="./assets/images/png/desktop.png" alt="">
         </div>
         <div class="container">
             <!-- Header Section Start -->
             <header>
-                <div class="container">
-                    <div class="flex-wrap header header_section position-header d-flex align-items-center justify-content-between">
-                        <div class="header-navbar-name">
-                            <a href="#">
+                <div class="row">
+                    <div class="header_section position-header">
+                        <nav class="d-flex align-items-center justify-content-between">
+                            <div class="header-navbar-name">
                                 <h1>My
                                     <span>Web</span>
                                 </h1>
-                            </a>
-                        </div>
-                        <div class="bar">
-                            <i class="fas fa-bars"></i>
-                        </div>
-                        <nav class="header-navbar-menu">
-                            <ul>
-                                <li class="active">
+                            </div>
+                            <ul class="d-flex header-navbar-menu">
+                                <li>
                                     <a href="#home">Home</a>
                                 </li>
                                 <li>
@@ -81,11 +77,30 @@
                                     <a href="#contact">Contact</a>
                                 </li>
                             </ul>
+                            <div class="d-flex align-items-center">
+                                <div class="hamburger">
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                </div>
+                                <div class="header-social-list">
+                                    <span>
+                                        <a href="https://twitter.com/sabuhi0" class="twitter">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                         <a href="https://www.facebook.com/gasimov0/" class="facebook">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/sabuhigasimov/?hl=en" class="instagram">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                     </span>
+                                </div>
+                            </div>
                         </nav>
                     </div>
                 </div>
             </header>
-            <!-- Header Section End -->
             <div class="intro-position-center text-center">
                 <div class="header-content-text">
                     <h3>Welcome</h3>
