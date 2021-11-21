@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Gallery</title>
+    <!-- Tab Icon -->
+    <link rel="icon" href="https://www.fswaste.co.uk/wp-content/uploads/2015/06/image-gallery-icon.fw_.png" type="image/x-icon">
     <!-- Css -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Google Fonts -->
@@ -14,6 +16,34 @@
 </head>
 
 <body>
+    <!-- Image Section Start -->
+    <div class="images_gallery">
+        <div id="images-list--js"></div>
+    </div>
+    <!-- Image Section End -->
+
+    <!-- Content Section Start -->
+    <div class="content_wrapper">
+        <div class="content_items" id="gallery-item-desc--js"></div>
+    </div>
+    <!-- Content Section End -->
+
+    <div class="images-actions">
+        <!-- Thumbd Section Start -->
+        <div class="thumbs">
+            <span class="zoom"></span>
+            <img id="thumb--js">
+        </div>
+        <!-- Thumbd Section End -->
+
+        <!-- Images-control Section Start -->
+        <div class="images-control">
+            <div id="next" class="arrow--js next"></div>
+            <div id="prev" class="arrow--js prev"></div>
+        </div>
+        <!-- Images-control Section End -->
+    </div>
+
     <!-- Js -->
     <script src="./assets/js/script.js"></script>
 </body>

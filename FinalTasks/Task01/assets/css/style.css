@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-item-bg {
+    position: relative;
+}
+
+.images_gallery {
+    /* width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px; */
+    height: 100vh;
+    overflow: hidden;
+}
+
+.images_gallery img {
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    /* z-index: 1; */
+    /* display: none; */
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* overflow: scroll; */
+}
+
+.pattern {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../images/pattern.png);
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.content_items {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    z-index: 10;
+}
+
+.content_items h2 {
+    color: #fff;
+    font-size: 90px;
+    font-family: 'Dancing Script', arial, serif;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.content_items p {
+    color: #fff;
+    background: url(../images/bg_content.png);
+    width: 500px;
+    padding: 40px;
+    font-family: 'PT Sans Narrow', arial, serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px #000;
+    box-shadow: 1px 1px 5px #202020;
+    border: 4px solid #fff;
+}
+
+.thumbs {
+    position: absolute;
+    z-index: 12;
+    right: 50px;
+    top: 50%;
+    margin-top: -150px;
+    border: 4px solid #fff;
+    box-shadow: 1px 1px 5px #202020;
+    -webkit-box-reflect: below 5px -webkit-gradient( linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(rgb(18, 18, 18)));
+}
+
+.thumbs img {
+    display: block;
+    width: 250px;
+}
+
+.next,
+.prev {
+    width: 35px;
+    height: 14px;
+    top: 50%;
+    right: 320px;
+    position: absolute;
+    z-index: 100;
+    background: url(../images/nav.png);
+    cursor: pointer;
+}
+
+.next {
+    background-position: 0px -14px;
+    margin-top: 5px;
+}
+
+.prev {
+    background-position: 0px 0px;
+    margin-top: -120px;
+}
+
+.zoom,
+.fullscreen {
+    width: 20px;
+    height: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9b9b9b; */
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.6;
+    background: url(../images/icons.png);
+}
+
+.zoom {
+    background-position: 0px -20px;
+}
+
+.fullscreen {
+    background-position: 0px 0px;
+}
+
+.zoom:hover,
+.fullscreen:hover {
+    opacity: 0.9;
+}
+
+.images-actions {
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    bottom: 350px;
+}
