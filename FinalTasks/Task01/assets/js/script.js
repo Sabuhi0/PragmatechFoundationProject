@@ -40,17 +40,25 @@ const images = [{
 function renderImage(image) {
     return `
       <div class="gallery-item-bg">
-      <img class="gallery-image ${image.active ? 'isActive' : ''}" src="./assets/images/${image.src}" alt="${image.alt}" /><div class="pattern"></div>
+      <img id="image-fullscreen" class="gallery-image ${image.active ? 'isActive' : ''}" src="./assets/images/${image.src}" alt="${image.alt}" /><div class="pattern"></div>
       </div>
     `
 }
 
-const fullscrenIcon = document.querySelector('.thumbs .zoom')
+const fullscrenIcon = document.querySelector('.thumbs span')
 
 fullscrenIcon.addEventListener('click', fullscren);
 
 function fullscren() {
     fullscrenIcon.classList.toggle('fullscreen')
+    const active = document.querySelectorAll("#image-fullscreen")
+    for (let i = 0; i < active.length; i++) {
+        if (active[i].classList.contains("img_zoom")) {
+            active[i].classList.remove("img_zoom")
+        } else {
+            active[i].classList.add("img_zoom")
+        }
+    }
 }
 
 function renderImages() {
