@@ -211,8 +211,43 @@ html {
     transform: translate(0, -50%);
 }
 
+
+/* Circle to-top button section */
+
+.scroll-button button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: var(--color-white);
+    background-color: rgba(0, 0, 0, 0.301);
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+    transition: all 0.3s ease-in-out;
+    border: none;
+    outline: none;
+    z-index: 9;
+    animation: scrollB_anim .6s forwards;
+}
+
+@keyframes scrollB_anim {
+    0% {
+        transform: translateY(100%);
+    }
+}
+
+.scroll-button button:hover {
+    background-color: var(--color-mountain-meadow);
+    color: var(--color-white);
+}
+
 .mt-4 {
     margin-top: 4rem;
+}
+
+.pt-7 {
+    padding-top: 7rem;
 }
 
 .mt-6 {
@@ -253,31 +288,4 @@ html {
 
 .mb-25 {
     margin-bottom: 25px;
-}
-
-
-/* Circle to-top button section */
-
-#btn-back-to-top {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    display: none;
-}
-
-.scroll-button button {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    color: var(--color-white);
-    background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
-    transition: all 0.3s ease-in-out;
-    border: none;
-    outline: none;
-}
-
-.scroll-button button:hover {
-    background-color: var(--color-mountain-meadow);
-    color: var(--color-white);
 }
