@@ -65,9 +65,12 @@
     font-family: "PoppinsLight";
     font-size: 18px;
     color: var(--color-cape-cod);
-    border-bottom: 1px solid var(--color-gallery);
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.list ul li:not(:last-child) {
+    border-bottom: 1px solid var(--color-gallery);
 }
 
 .about-information h1 span,
