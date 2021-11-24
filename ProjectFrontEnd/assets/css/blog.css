@@ -1,0 +1,23 @@
+.blog-item img {
+    opacity: 0.8;
+    transition: all 0.4s ease;
+}
+
+.blog-item img:hover {
+    opacity: 1;
+}
+
+.blog-item h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #202020;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.blog-item h5 {
+    font-family: "PoppinsLight", sans-serif;
+    font-size: 14px;
+    color: #242424;
+    padding-bottom: 15px;
+}

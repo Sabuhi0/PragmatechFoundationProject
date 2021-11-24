@@ -1,3 +1,10 @@
+// const clickNav = document.querySelector('.header-navbar-menu li a');
+
+// clickNav.onclick = function() {
+//     const test = document.querySelector('#about');
+//     test.scrollIntoView()
+// }
+
 // Navbar scroll
 document.onreadystatechange = function() {
     let lastScrollPosition = 0;
@@ -101,3 +108,47 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
+
+/* Blog Section Data */
+
+const blog = [{
+        name: 'FrontEnd nedir',
+        date: "2021-11-23",
+        img: 'frontend-nedir-nasil-yapilir.jpg',
+        alt: 'FrontEnd'
+    }, {
+        name: 'Flask nedir',
+        date: "2021-11-23",
+        img: 'pythonearth-flask-dersleri.png'
+    },
+    {
+        name: 'FrontEnd nedir',
+        date: "2021-11-23",
+        img: 'frontend-nedir-nasil-yapilir.jpg'
+    },
+    {
+        name: 'Flask nedir',
+        date: "2021-11-23",
+        img: 'pythonearth-flask-dersleri.png'
+    }
+]
+
+const data = [];
+
+for (let i = 0; i < blog.length; i++) {
+    data.push(
+        `
+            <div class="col-md-4 col-sm-3">
+                <div class="blog-item">
+                    <img src="./assets/images/png/${blog[i].img}" alt="${blog[i].alt}" class="image">
+                    <div class="blog-texts">
+                        <h1>${blog[i].name}</h1>
+                        <h5>${blog[i].date}</h5>
+                    </div>
+                </div>
+            </div>
+        `
+    )
+}
+document.getElementById("blog--js").innerHTML = data.join('');
