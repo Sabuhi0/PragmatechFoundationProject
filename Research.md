@@ -1,2 +1,2 @@
 ## Python PIP'si nədir?
-- PIP python paketlərini idarə etmə sistemidir.PIP vasitəsi ilə python proqram təminatı paketlərini yükləmək və idarə etmək mümkündür,paketləri və ya istəsəniz modullar üçün paket meneceridir.
+- PIP python paketlərini idarə etmə sistemidir.PIP vasitəsi ilə python proqram təminatı paketlərini yükləmək və idarə etmək mümkündür,PIP Python paketləri və ya istəsəniz modullar üçün paket meneceridir.
