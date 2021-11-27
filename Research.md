@@ -10,7 +10,7 @@
     - Sonra self.yazar... .
   - 2-ci class
     - class adi: Booksales.
-    - def init (self,kitabSayi,kitabinShatisdaOlmagi(olmamagi),kitabinQiymeti,satishTarixi,endirim,).
+    - def init (self,kitabinSayi,kitabinShatisdaOlmagi(olmamagi),kitabinQiymeti,satishTarixi,endirim,).
     - Sonra self.kitabinQiymeti... .
   - 3-ci class
     - class adi: Employees.
