@@ -1,11 +1,25 @@
 # Python PIP'si nədir?
 - PIP python paketlərini idarə etmə sistemidir.PIP vasitəsi ilə python proqram təminatı paketlərini yükləmək və idarə etmək mümkündür,PIP Python paketləri və ya istəsəniz modullar üçün paket meneceridir.
 
-# Aşağıdakı suallara cavab yazın.
-  - Bir kitab magazasi düşünün.Bu mağazanın online formada idare olunması tələb olunur.
-    - Kitablar haqqında məlumatlar.
-    - Kitab satışları haqqında məlumatlar.
-    - Mağaza işçiləri haqqında məlumatlar.
-  - Bu mağazanın sistemini yazacağınızı düşünərək neçə ədəd class yaradılmalı olduğunu və bu classlar daxilində hansı property və metodların lazım ola biləcəyini planlayaraq qeyd edin.
+## Bookstore
+
+- 3 eded class yaratmak.
+  - 1-ci class.
+    - class adi: Bookinfo.
+    - def init (self,yazar,buraxilish ili,nesriyatevi,kitabinmovzusu).
+    - Sonra self.yazar... .
+  - 2-ci class
+    - class adi: Booksales.
+    - def init (self,kitabinShatisdaOlmagi(olmamagi),kitabinQiymeti,satishTarixi,endirim,).
+    - Sonra self.kitabinQiymeti... .
+  - 3-ci class
+    - class adi: Employees.
+    - def init (self,ishebashdamaTarixi,adi,soyadi,maash,vezifesi).
+    - Sonra self.maash... .
+
+
+
+
+
 
  
