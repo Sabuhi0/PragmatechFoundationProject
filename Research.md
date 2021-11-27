@@ -6,11 +6,11 @@
 - 3 eded class yaratmak.
   - 1-ci class.
     - class adi: Bookinfo.
-    - def init (self,yazar,buraxilish ili,nesriyatevi,kitabinmovzusu).
+    - def init (self,KitabinAdi,yazar,buraxilish ili,nesriyatevi,kitabinmovzusu).
     - Sonra self.yazar... .
   - 2-ci class
     - class adi: Booksales.
-    - def init (self,kitabinShatisdaOlmagi(olmamagi),kitabinQiymeti,satishTarixi,endirim,).
+    - def init (self,kitabSayi,kitabinShatisdaOlmagi(olmamagi),kitabinQiymeti,satishTarixi,endirim,).
     - Sonra self.kitabinQiymeti... .
   - 3-ci class
     - class adi: Employees.
