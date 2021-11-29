@@ -19,7 +19,7 @@ print(obj1.two(),obj2.two())
 # Code 02
 
 class test:
-    def __init__(self,a = "Hello Wolrd"):
+    def __init__(self,a = "Git push)"):
         self.a = a
 
     def display(self):
