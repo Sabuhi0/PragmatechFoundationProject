@@ -17,7 +17,6 @@
 .fa-css3-alt,
 .fa-bootstrap,
 .fa-js,
-.fa-figma,
 .fa-python {
     width: 70px;
     height: 70px;
@@ -33,15 +32,9 @@
 .list-groups .fa-css3-alt,
 .list-groups .fa-bootstrap,
 .list-groups .fa-js,
-.list-groups .fa-figma,
 .list-groups .fa-python {
     font-size: 35px;
     color: var(--color-mountain-meadow);
-}
-
-.list-icon:hover .fa-figma {
-    color: red;
-    transition: all .3s ease;
 }
 
 .list-icon:hover .fa-html5 {
@@ -114,19 +107,6 @@
 
 
 /* Responsive Section End */
-
-.progress {
-    display: flex;
-    height: 0.5rem;
-    overflow: hidden;
-    font-size: 12px;
-    background-color: var(--color-geyser);
-    border-radius: .25rem;
-}
-
-.progress-bar {
-    background-color: var(--color-mountain-meadow);
-}
 
 
 /* My Skills Section End */
