@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">To Do App</h1>
+
+        <form class="form-item" action="/edit/{{up.id}}" method="POST">
+            <div class="form">
+                <label>Todo Title</label>
+                <br>
+                <input type="text" value="{{up.title}}" name="title" placeholder="Edit..." required>
+            </div>
+            <button type="submit">Edit</button>
+        </form>
+    </div>
+</body>
+
+</html>
