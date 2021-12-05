@@ -26,6 +26,23 @@ def add():
     db.session.commit()
     return redirect("/")
 
+@app.route("/delete/<int:id>")
+def delete(id):
+    todo = Todo.query.filter_by(id=id).first()
+    db.session.delete(todo)
+    db.session.commit()
+    return redirect("/")
+
+@app.route("/edit/<int:id>", methods=["GET","POST"])
+def edit(id):
+    edit = Todo.query.filter_by(id=id).first()
+    if request.method == "POST":
+        edit = Todo.query.filter_by(id=id).first()
+        edit.title=request.form['title']
+        edit.content=request.form['content']
+        db.session.commit()
+        return redirect(url_for("index"))
+    return render_template("edit.html",edit=edit)
 
 if __name__ == "__main__":
     db.create_all()

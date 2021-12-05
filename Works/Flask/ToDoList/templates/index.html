@@ -15,11 +15,11 @@
         <form action="/add" method="POST" class="g-3">
             <div class="col-md-12">
                 <label for="validationCustom01" class="form-label">First name</label>
-                <input type="text" name="title" class="form-control" id="validationCustom01" value="" required>
+                <input type="text" name="title" class="form-control" id="validationCustom01" required>
             </div>
             <div class="col-md-12 mt-3">
                 <label for="validationCustom02" class="form-label">Last name</label>
-                <input type="text" name="content" class="form-control" id="validationCustom02" value="" required>
+                <input type="text" name="content" class="form-control" id="validationCustom02" required>
             </div>
             <div class="col-12 my-2">
                 <button class="btn btn-primary" type="submit">Submit form</button>
@@ -32,6 +32,8 @@
                     <th>Id</th>
                     <th>Frist Name</th>
                     <th>Last Name</th>
+                    <th>Delete</th>
+                    <th>Edit</th>
                 </tr>
             </thead>
             <tbody>
@@ -40,6 +42,8 @@
                     <td>{{todo.id}}</td>
                     <td>{{todo.title}}</td>
                     <td>{{todo.content}}</td>
+                    <td><button class="btn btn-warning"><a class="text-light" style="text-decoration: none;" href="/delete/{{todo.id}}">Delete</a></button></td>
+                    <td><button class="btn btn-info"><a class="text-light" href="/edit/{{todo.id}}" style="text-decoration: none;">Edit</a></button></td>
                 </tr>
                 {%endfor%}
 
