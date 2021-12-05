@@ -8,7 +8,7 @@ def index():
         _ad=request.form['ad']
         _pass=request.form['pass']
         if _ad=="admin" and _pass=="admin":
-            return f'<h1>Sehifemize xosh gelmisiz</h1>'
+            return f'<h1>{_ad} Sehifemize xosh gelmisiz</h1>'
         else:
             return f'<h1>Daxil ediyiniz melumatlar sehvdi</h1>'
 
