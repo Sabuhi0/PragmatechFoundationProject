@@ -1,4 +1,4 @@
-/*  */
+/* Common css */
 
 * {
     margin: 0;
@@ -10,18 +10,31 @@
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
-}
-
-.text-center {
-    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
 }
 
 .mb-2 {
     margin-bottom: 2rem;
 }
 
+
+/* Header Section Start */
+
+.header-text {
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+
+/* Header Section End */
+
+
+/* Form Section Start */
+
 .form label {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .form input {
@@ -49,13 +62,20 @@
     background: #242424;
 }
 
+
+/* Form Section End */
+
+
+/* Table Section Start */
+
 .hr-line {
     margin-bottom: 10px;
 }
 
 .todo-list {
     padding: 18px;
-    border: 1px solid rgba(36, 36, 36, 0.507)
+    border: 1px solid rgba(36, 36, 36, 0.507);
+    border-radius: 4px;
 }
 
 .todo-list p {
@@ -73,7 +93,7 @@
     font-size: 14px;
     color: #fff;
     border: none;
-    border-radius: 8px;
+    border-radius: 3px;
     background: #1ca163;
 }
 
@@ -115,3 +135,6 @@
     transition: all ease .4s;
     background: #06a0be;
 }
+
+
+/* Table Section Start */
